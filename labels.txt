@@ -1,0 +1,5136 @@
+cl65 -d -t c64 -O -Oi -Or -Os video.c player.c shooter.c shot.c enemy.c sprite.c sound.c playground.c -o shooter.prg
+
+
+Macro Hash Table Summary
+  0 : empty
+  1 : empty
+  2 : empty
+  3 : empty
+  4 : TGI_COLOR_BLUE 
+  5 : COLOR_VIOLET COLOR_BLACK 
+  6 : getVideoRamAddress 
+  7 : __OPT_s__ 
+  8 : empty
+  9 : __SID_H 
+ 10 : empty
+ 11 : empty
+ 12 : empty
+ 13 : empty
+ 14 : empty
+ 15 : empty
+ 16 : empty
+ 17 : empty
+ 18 : empty
+ 19 : empty
+ 20 : empty
+ 21 : _VIDEO_H 
+ 22 : TGI_COLOR_CYAN 
+ 23 : empty
+ 24 : TGI_COLOR_YELLOW COLOR_PURPLE 
+ 25 : empty
+ 26 : empty
+ 27 : COLOR_LIGHTGREEN 
+ 28 : empty
+ 29 : empty
+ 30 : empty
+ 31 : empty
+ 32 : empty
+ 33 : empty
+ 34 : _HAVE_size_t 
+ 35 : TGI_COLOR_GRAY1 
+ 36 : TGI_COLOR_GRAY2 
+ 37 : TGI_COLOR_GRAY3 
+ 38 : empty
+ 39 : setColumnSelect getVideoRamOffset _HAVE_wchar_t 
+ 40 : setVideoRamOffsetIndex getVideoRamOffsetIndex 
+ 41 : C64_OS_PET64 
+ 42 : TGI_COLOR_VIOLET 
+ 43 : empty
+ 44 : empty
+ 45 : empty
+ 46 : empty
+ 47 : empty
+ 48 : empty
+ 49 : __CBM__ 
+ 50 : empty
+ 51 : empty
+ 52 : empty
+ 53 : COLOR_BROWN 
+ 54 : empty
+ 55 : empty
+ 56 : empty
+ 57 : _HAVE_ptrdiff_t 
+ 58 : empty
+ 59 : empty
+ 60 : empty
+ 61 : empty
+ 62 : empty
+ 63 : empty
+ 64 : empty
+ 65 : _STDDEF_H 
+ 66 : __DATE__ 
+ 67 : COLOR_BLUE 
+ 68 : C64_EU_NEW 
+ 69 : empty
+ 70 : C64_DTV 
+ 71 : __CC65_STD_C99__ 
+ 72 : TGI_COLOR_LIGHTRED 
+ 73 : empty
+ 74 : empty
+ 75 : _STRING_H 
+ 76 : TGI_COLOR_GREEN __CC65__ 
+ 77 : _HAVE_NULL 
+ 78 : empty
+ 79 : empty
+ 80 : TGI_COLOR_BROWN 
+ 81 : empty
+ 82 : empty
+ 83 : empty
+ 84 : empty
+ 85 : empty
+ 86 : empty
+ 87 : empty
+ 88 : empty
+ 89 : empty
+ 90 : empty
+ 91 : empty
+ 92 : empty
+ 93 : empty
+ 94 : empty
+ 95 : __CC65_STD__ 
+ 96 : empty
+ 97 : empty
+ 98 : empty
+ 99 : empty
+100 : empty
+101 : empty
+102 : __TIME__ 
+103 : COLOR_WHITE __OPT__ 
+104 : empty
+105 : empty
+106 : empty
+107 : empty
+108 : _C64_H 
+109 : TGI_COLOR_PURPLE 
+110 : empty
+111 : empty
+112 : empty
+113 : empty
+114 : __CC65_STD_CC65__ 
+115 : empty
+116 : NULL 
+117 : empty
+118 : empty
+119 : empty
+120 : empty
+121 : empty
+122 : empty
+123 : empty
+124 : empty
+125 : COLOR_LIGHTBLUE 
+126 : COLOR_GRAY1 
+127 : COLOR_GRAY2 
+128 : COLOR_GRAY3 COLOR_ORANGE 
+129 : VIC 
+130 : __CC65_STD_C89__ 
+131 : empty
+132 : empty
+133 : setVideoBank getVideoBank CH_F8 
+134 : COLOR_YELLOW 
+135 : empty
+136 : empty
+137 : empty
+138 : empty
+139 : TGI_COLOR_ORANGE 
+140 : empty
+141 : empty
+142 : CH_F1 
+143 : CH_F2 
+144 : CH_F3 
+145 : CH_F4 
+146 : TGI_COLOR_BLACK CH_F5 offsetof 
+147 : CH_F6 
+148 : CH_F7 
+149 : SID 
+150 : empty
+151 : empty
+152 : empty
+153 : empty
+154 : empty
+155 : __6526_H TGI_COLOR_LIGHTBLUE 
+156 : empty
+157 : empty
+158 : empty
+159 : empty
+160 : empty
+161 : C64_OS_US 
+162 : empty
+163 : empty
+164 : empty
+165 : empty
+166 : __OPT_i__ 
+167 : COLOR_LIGHTRED 
+168 : COLOR_CYAN 
+169 : C64_EU_OLD 
+170 : CIA1 
+171 : CIA2 
+172 : empty
+173 : empty
+174 : empty
+175 : empty
+176 : empty
+177 : empty
+178 : empty
+179 : empty
+180 : empty
+181 : empty
+182 : empty
+183 : empty
+184 : setCharacterGenerator getCharacterGenerator COLOR_RAM 
+185 : empty
+186 : empty
+187 : empty
+188 : empty
+189 : empty
+190 : empty
+191 : setRowSelect 
+192 : C64_OS_SX64 
+193 : empty
+194 : empty
+195 : empty
+196 : TGI_COLOR_WHITE 
+197 : empty
+198 : TGI_COLOR_RED 
+199 : __OPT_r__ 
+200 : COLOR_GREEN 
+201 : empty
+202 : empty
+203 : empty
+204 : empty
+205 : empty
+206 : __STDC_HOSTED__ __C64__ 
+207 : __VIC2_H COLOR_RED 
+208 : empty
+209 : empty
+210 : TGI_COLOR_LIGHTGREEN 
+Applied OptStackOps: 2 changes
+Applied OptRTS: 1 changes
+Applied OptDeadCode: 1 changes
+Applied OptBoolTrans: 1 changes
+Applied OptCondBranches1: 1 changes
+Applied OptUnusedLoads: 2 changes
+Applied OptDupLoads: 1 changes
+Applied OptTransfers4: 1 changes
+Applied OptLoad2: 2 changes
+Applied OptDupLoads: 1 changes
+Applied OptSize1: 2 changes
+Applied OptUnusedLoads: 1 changes
+Applied OptSize2: 1 changes
+Applied OptBranchDist: 1 changes
+Applied OptStackOps: 1 changes
+Applied OptShift4: 1 changes
+Applied OptComplAX1: 1 changes
+Applied OptUnusedLoads: 3 changes
+Applied OptTransfers3: 1 changes
+Applied OptPushPop: 1 changes
+Applied OptPtrLoad13: 1 changes
+Applied OptStackOps: 1 changes
+Applied OptRTS: 1 changes
+Applied OptBoolTrans: 1 changes
+Applied OptCondBranches2: 1 changes
+Applied OptCmp8: 1 changes
+Applied OptCmp3: 1 changes
+Applied OptUnusedLoads: 5 changes
+Applied OptDupLoads: 1 changes
+Applied OptTransfers4: 2 changes
+Applied OptPrecalc: 1 changes
+Applied OptLoad2: 3 changes
+Applied OptDupLoads: 2 changes
+Applied OptSize1: 1 changes
+Applied OptBranchDist: 2 changes
+Applied OptDeadJumps: 1 changes
+Applied OptBoolTrans: 1 changes
+Applied OptJumpTarget3: 1 changes
+Applied OptUnusedLoads: 1 changes
+Applied OptBranchDist: 1 changes
+
+Global symbol table
+===================
+ptrdiff_t:
+    AsmName: _ptrdiff_t
+    Flags: SC_TYPEDEF 0x10000
+    Type:  int
+wchar_t:
+    AsmName: _wchar_t
+    Flags: SC_TYPEDEF 0x10000
+    Type:  unsigned char
+size_t:
+    AsmName: _size_t
+    Flags: SC_TYPEDEF 0x10000
+    Type:  unsigned int
+strcat:
+    AsmName: _strcat
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ unsigned char *
+strchr:
+    AsmName: _strchr
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ unsigned char *
+strcmp:
+    AsmName: _strcmp
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+strcoll:
+    AsmName: _strcoll
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+strcpy:
+    AsmName: _strcpy
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ unsigned char *
+strcspn:
+    AsmName: _strcspn
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning unsigned int
+strerror:
+    AsmName: _strerror
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ unsigned char *
+strlen:
+    AsmName: _strlen
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning unsigned int
+strncat:
+    AsmName: _strncat
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ unsigned char *
+strncmp:
+    AsmName: _strncmp
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+strncpy:
+    AsmName: _strncpy
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ unsigned char *
+strrchr:
+    AsmName: _strrchr
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ unsigned char *
+strspn:
+    AsmName: _strspn
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning unsigned int
+strstr:
+    AsmName: _strstr
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ unsigned char *
+strtok:
+    AsmName: _strtok
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ unsigned char *
+strxfrm:
+    AsmName: _strxfrm
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning unsigned int
+memchr:
+    AsmName: _memchr
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ void *
+memcmp:
+    AsmName: _memcmp
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+memcpy:
+    AsmName: _memcpy
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ void *
+memmove:
+    AsmName: _memmove
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ void *
+memset:
+    AsmName: _memset
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ void *
+_bzero:
+    AsmName: __bzero
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ void *
+bzero:
+    AsmName: _bzero
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+strdup:
+    AsmName: _strdup
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ unsigned char *
+stricmp:
+    AsmName: _stricmp
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+strcasecmp:
+    AsmName: _strcasecmp
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+strnicmp:
+    AsmName: _strnicmp
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+strncasecmp:
+    AsmName: _strncasecmp
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+strlwr:
+    AsmName: _strlwr
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ unsigned char *
+strlower:
+    AsmName: _strlower
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ unsigned char *
+strupr:
+    AsmName: _strupr
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ unsigned char *
+strupper:
+    AsmName: _strupper
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ unsigned char *
+strqtok:
+    AsmName: _strqtok
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ unsigned char *
+_stroserror:
+    AsmName: __stroserror
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ const unsigned char *
+c64_c256k_emd:
+    AsmName: _c64_c256k_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_dqbb_emd:
+    AsmName: _c64_dqbb_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_georam_emd:
+    AsmName: _c64_georam_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_isepic_emd:
+    AsmName: _c64_isepic_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_ram_emd:
+    AsmName: _c64_ram_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_ramcart_emd:
+    AsmName: _c64_ramcart_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_reu_emd:
+    AsmName: _c64_reu_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_vdc_emd:
+    AsmName: _c64_vdc_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+dtv_himem_emd:
+    AsmName: _dtv_himem_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_hitjoy_joy:
+    AsmName: _c64_hitjoy_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_numpad_joy:
+    AsmName: _c64_numpad_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_ptvjoy_joy:
+    AsmName: _c64_ptvjoy_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_stdjoy_joy:
+    AsmName: _c64_stdjoy_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_1351_mou:
+    AsmName: _c64_1351_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_joy_mou:
+    AsmName: _c64_joy_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_inkwell_mou:
+    AsmName: _c64_inkwell_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_pot_mou:
+    AsmName: _c64_pot_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_swlink_ser:
+    AsmName: _c64_swlink_ser
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_hi_tgi:
+    AsmName: _c64_hi_tgi
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+get_ostype:
+    AsmName: _get_ostype
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning unsigned char
+video_clear:
+    AsmName: _video_clear
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF 0x10000
+    Type:  __near__ function returning void
+video_init:
+    AsmName: _video_init
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF 0x10000
+    Type:  __near__ function returning void
+video_scroll:
+    AsmName: _video_scroll
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF 0x10000
+    Type:  __near__ function returning void
+video_wait4screen_end:
+    AsmName: _video_wait4screen_end
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF 0x10000
+    Type:  __near__ function returning void
+videoram:
+    AsmName: _videoram
+    Flags: SC_STATIC SC_EXTERN SC_STORAGE SC_DEF SC_REF 0x10000
+    Type:  __near__ unsigned char *
+
+
+
+
+Global tag table
+================
+__vic2:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0001:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-0002:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-struct-0003:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0004:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-0005:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-struct-0006:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0007:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-0008:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0009:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-000A:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-000B:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-000C:
+    Flags: SC_STRUCT
+    Type:  (none)
+__sid_voice:
+    Flags: SC_STRUCT
+    Type:  (none)
+__sid:
+    Flags: SC_STRUCT
+    Type:  (none)
+__6526:
+    Flags: SC_STRUCT
+    Type:  (none)
+
+
+
+
+
+Macro Hash Table Summary
+  0 : empty
+  1 : empty
+  2 : empty
+  3 : empty
+  4 : spriteEnableMulticolor TGI_COLOR_BLUE 
+  5 : COLOR_VIOLET COLOR_BLACK 
+  6 : empty
+  7 : __OPT_s__ 
+  8 : empty
+  9 : __SID_H 
+ 10 : empty
+ 11 : empty
+ 12 : empty
+ 13 : empty
+ 14 : joystick2isRight 
+ 15 : empty
+ 16 : empty
+ 17 : empty
+ 18 : empty
+ 19 : EOF joystickIsLeft 
+ 20 : empty
+ 21 : __bool_true_false_are_defined false SHOT_SPRITE 
+ 22 : TGI_COLOR_CYAN 
+ 23 : empty
+ 24 : TGI_COLOR_YELLOW COLOR_PURPLE 
+ 25 : empty
+ 26 : empty
+ 27 : COLOR_LIGHTGREEN 
+ 28 : empty
+ 29 : empty
+ 30 : empty
+ 31 : empty
+ 32 : empty
+ 33 : empty
+ 34 : _HAVE_size_t _CONFIG_H 
+ 35 : TGI_COLOR_GRAY1 
+ 36 : TGI_COLOR_GRAY2 
+ 37 : MAX_SHOTS TGI_COLOR_GRAY3 
+ 38 : empty
+ 39 : _HAVE_wchar_t joystickIsDirection 
+ 40 : _SPRITE_H 
+ 41 : C64_OS_PET64 
+ 42 : TGI_COLOR_VIOLET 
+ 43 : empty
+ 44 : empty
+ 45 : empty
+ 46 : empty
+ 47 : empty
+ 48 : empty
+ 49 : spriteSetMultiColor __CBM__ 
+ 50 : empty
+ 51 : empty
+ 52 : empty
+ 53 : COLOR_BROWN 
+ 54 : empty
+ 55 : empty
+ 56 : empty
+ 57 : _HAVE_ptrdiff_t 
+ 58 : _STDBOOL_H 
+ 59 : empty
+ 60 : empty
+ 61 : L_tmpnam 
+ 62 : empty
+ 63 : empty
+ 64 : empty
+ 65 : _STDDEF_H 
+ 66 : __DATE__ 
+ 67 : _IONBF COLOR_BLUE 
+ 68 : C64_EU_NEW 
+ 69 : SEEK_CUR PLAYER_SPRITE 
+ 70 : C64_DTV 
+ 71 : __CC65_STD_C99__ 
+ 72 : va_end joystick2isFire TGI_COLOR_LIGHTRED 
+ 73 : empty
+ 74 : empty
+ 75 : joystickIsFire 
+ 76 : SEEK_END TGI_COLOR_GREEN __CC65__ 
+ 77 : _HAVE_NULL 
+ 78 : empty
+ 79 : empty
+ 80 : TGI_COLOR_BROWN 
+ 81 : empty
+ 82 : empty
+ 83 : empty
+ 84 : joystick1isFire 
+ 85 : empty
+ 86 : empty
+ 87 : joystick2isDown 
+ 88 : empty
+ 89 : empty
+ 90 : empty
+ 91 : empty
+ 92 : empty
+ 93 : empty
+ 94 : empty
+ 95 : __CC65_STD__ 
+ 96 : empty
+ 97 : spriteSetPosition 
+ 98 : empty
+ 99 : joystick1isDown 
+100 : _STDIO_H 
+101 : empty
+102 : SHOT_SPRITE_FILE __TIME__ 
+103 : COLOR_WHITE __OPT__ 
+104 : empty
+105 : empty
+106 : empty
+107 : bool 
+108 : joystickIsDown _C64_H 
+109 : TGI_COLOR_PURPLE 
+110 : joystick1isRight 
+111 : FOPEN_MAX 
+112 : JOYSTICK_LEFT 
+113 : empty
+114 : __CC65_STD_CC65__ 
+115 : empty
+116 : NULL 
+117 : FILENAME_MAX 
+118 : empty
+119 : _IOLBF spriteEnable JOYSTICK_DOWN 
+120 : spriteSetColor 
+121 : spriteSetYposition 
+122 : putc _PLAYER_H 
+123 : empty
+124 : empty
+125 : JOYSTICK_UP COLOR_LIGHTBLUE 
+126 : _IOFBF COLOR_GRAY1 
+127 : COLOR_GRAY2 
+128 : COLOR_GRAY3 COLOR_ORANGE 
+129 : VIC 
+130 : __CC65_STD_C89__ 
+131 : getc _JOYSTICK_H 
+132 : empty
+133 : BUFSIZ CH_F8 
+134 : _SHOT_H COLOR_YELLOW 
+135 : empty
+136 : empty
+137 : empty
+138 : empty
+139 : MAX_SPREADING TGI_COLOR_ORANGE 
+140 : empty
+141 : empty
+142 : CH_F1 
+143 : CH_F2 
+144 : CH_F3 
+145 : CH_F4 
+146 : offsetof TGI_COLOR_BLACK CH_F5 
+147 : CH_F6 
+148 : CH_F7 
+149 : SID 
+150 : va_arg 
+151 : empty
+152 : empty
+153 : empty
+154 : empty
+155 : __6526_H TGI_COLOR_LIGHTBLUE 
+156 : empty
+157 : joystickIsUp 
+158 : empty
+159 : empty
+160 : empty
+161 : C64_OS_US 
+162 : empty
+163 : empty
+164 : va_start 
+165 : empty
+166 : __OPT_i__ 
+167 : COLOR_LIGHTRED 
+168 : COLOR_CYAN 
+169 : va_copy C64_EU_OLD 
+170 : CIA1 
+171 : joystickIsRight CIA2 
+172 : empty
+173 : PLAYER_Y_POS_DEFAULT PLAYER_X_POS_DEFAULT 
+174 : empty
+175 : true SHOT_START_Y 
+176 : TMP_MAX 
+177 : SHOT_MIN_DELAY 
+178 : JOYSTICK_RIGHT 
+179 : empty
+180 : empty
+181 : empty
+182 : empty
+183 : empty
+184 : COLOR_RAM 
+185 : SEEK_SET 
+186 : empty
+187 : empty
+188 : joystick2isLeft 
+189 : empty
+190 : spriteSetExpandX 
+191 : spriteSetExpandY JOYSTICK_FIRE 
+192 : joystick1isUp C64_OS_SX64 
+193 : empty
+194 : empty
+195 : empty
+196 : TGI_COLOR_WHITE 
+197 : spriteSetXposition PLAYER_SPRITE_FILE 
+198 : TGI_COLOR_RED 
+199 : __OPT_r__ 
+200 : joystick1isLeft COLOR_GREEN 
+201 : empty
+202 : empty
+203 : _STDARG_H 
+204 : empty
+205 : joystick2isUp 
+206 : __STDC_HOSTED__ __C64__ 
+207 : __VIC2_H COLOR_RED 
+208 : empty
+209 : empty
+210 : TGI_COLOR_LIGHTGREEN 
+Applied OptDeadJumps: 1 changes
+Applied OptRTS: 1 changes
+Applied OptDeadCode: 1 changes
+Applied OptUnusedLoads: 6 changes
+Applied OptStoreLoad: 1 changes
+Applied OptBNegAX4: 1 changes
+Applied OptDecouple: 5 changes
+Applied OptRTS: 1 changes
+Applied OptDeadCode: 1 changes
+Applied OptUnusedLoads: 4 changes
+Applied OptDupLoads: 2 changes
+Applied OptTransfers4: 1 changes
+Applied OptJumpCascades: 1 changes
+Applied OptSize2: 5 changes
+Applied OptBranchDist: 1 changes
+Applied OptDecouple: 2 changes
+Applied OptStackOps: 1 changes
+Applied OptJumpCascades: 4 changes
+Applied OptRTS: 1 changes
+Applied OptBoolTrans: 6 changes
+Applied OptCondBranches1: 8 changes
+Applied OptCondBranches2: 3 changes
+Applied OptCmp8: 5 changes
+Applied OptCmp3: 5 changes
+Applied OptCmp4: 1 changes
+Applied OptJumpTarget3: 14 changes
+Applied OptUnusedLoads: 50 changes
+Applied OptDupLoads: 2 changes
+Applied OptTransfers4: 5 changes
+Applied OptPushPop: 1 changes
+Applied OptPrecalc: 1 changes
+Applied OptJumpCascades: 4 changes
+Applied OptDeadJumps: 2 changes
+Applied OptCondBranches1: 4 changes
+Applied OptCmp9: 2 changes
+Applied OptUnusedLoads: 1 changes
+Applied OptUnusedLoads: 1 changes
+Applied OptSize1: 2 changes
+Applied OptUnusedLoads: 2 changes
+Applied OptBranchDist: 9 changes
+
+Global symbol table
+===================
+c64_c256k_emd:
+    AsmName: _c64_c256k_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_dqbb_emd:
+    AsmName: _c64_dqbb_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_georam_emd:
+    AsmName: _c64_georam_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_isepic_emd:
+    AsmName: _c64_isepic_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_ram_emd:
+    AsmName: _c64_ram_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_ramcart_emd:
+    AsmName: _c64_ramcart_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_reu_emd:
+    AsmName: _c64_reu_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_vdc_emd:
+    AsmName: _c64_vdc_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+dtv_himem_emd:
+    AsmName: _dtv_himem_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_hitjoy_joy:
+    AsmName: _c64_hitjoy_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_numpad_joy:
+    AsmName: _c64_numpad_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_ptvjoy_joy:
+    AsmName: _c64_ptvjoy_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_stdjoy_joy:
+    AsmName: _c64_stdjoy_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_1351_mou:
+    AsmName: _c64_1351_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_joy_mou:
+    AsmName: _c64_joy_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_inkwell_mou:
+    AsmName: _c64_inkwell_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_pot_mou:
+    AsmName: _c64_pot_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_swlink_ser:
+    AsmName: _c64_swlink_ser
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_hi_tgi:
+    AsmName: _c64_hi_tgi
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+get_ostype:
+    AsmName: _get_ostype
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning unsigned char
+playerXpos:
+    AsmName: _playerXpos
+    Flags: SC_STATIC SC_EXTERN SC_STORAGE SC_DEF SC_REF 0x10000
+    Type:  int
+playerYpos:
+    AsmName: _playerYpos
+    Flags: SC_STATIC SC_EXTERN SC_STORAGE SC_DEF SC_REF 0x10000
+    Type:  unsigned short
+findFreeSlot:
+    AsmName: _findFreeSlot
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning signed short
+playerFireShot:
+    AsmName: _playerFireShot
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning signed short
+playerAnimateShots:
+    AsmName: _playerAnimateShots
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+playerInitialize:
+    AsmName: _playerInitialize
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF 0x10000
+    Type:  __near__ function returning signed short
+playerLoad:
+    AsmName: _playerLoad
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF 0x10000
+    Type:  __near__ function returning signed short
+playerMove:
+    AsmName: _playerMove
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF 0x10000
+    Type:  __near__ function returning void
+shotDelay:
+    AsmName: _shotDelay
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  unsigned short
+spread_factor:
+    AsmName: _spread_factor
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  unsigned short
+shotX:
+    AsmName: _shotX
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  int [6]
+shotY:
+    AsmName: _shotY
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  unsigned short [6]
+flyingShots:
+    AsmName: _flyingShots
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  signed short
+shotInitialize:
+    AsmName: _shotInitialize
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning signed short
+shotInstallRasterIRQ:
+    AsmName: _shotInstallRasterIRQ
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+shotLoad:
+    AsmName: _shotLoad
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning signed short
+shotMove:
+    AsmName: _shotMove
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+shotMoveAll:
+    AsmName: _shotMoveAll
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+shotNew:
+    AsmName: _shotNew
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_REF 0x10000
+    Type:  __near__ function returning signed short
+shotRasterIRQ:
+    AsmName: _shotRasterIRQ
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+shotRemove:
+    AsmName: _shotRemove
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+shotRender:
+    AsmName: _shotRender
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+spriteGetPointer:
+    AsmName: _spriteGetPointer
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning __near__ unsigned char *
+spriteLoad:
+    AsmName: _spriteLoad
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_REF 0x10000
+    Type:  __near__ function returning int
+_Bool:
+    AsmName: __Bool
+    Flags: SC_TYPEDEF 0x10000
+    Type:  unsigned char
+ptrdiff_t:
+    AsmName: _ptrdiff_t
+    Flags: SC_TYPEDEF 0x10000
+    Type:  int
+wchar_t:
+    AsmName: _wchar_t
+    Flags: SC_TYPEDEF 0x10000
+    Type:  unsigned char
+size_t:
+    AsmName: _size_t
+    Flags: SC_TYPEDEF 0x10000
+    Type:  unsigned int
+va_list:
+    AsmName: _va_list
+    Flags: SC_TYPEDEF 0x10000
+    Type:  __near__ unsigned char *
+FILE:
+    AsmName: _FILE
+    Flags: SC_TYPEDEF 0x10000
+    Type:  struct _FILE
+fpos_t:
+    AsmName: _fpos_t
+    Flags: SC_TYPEDEF 0x10000
+    Type:  unsigned long
+stdin:
+    AsmName: _stdin
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  __near__ struct _FILE *
+stdout:
+    AsmName: _stdout
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  __near__ struct _FILE *
+stderr:
+    AsmName: _stderr
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  __near__ struct _FILE *
+clearerr:
+    AsmName: _clearerr
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+fclose:
+    AsmName: _fclose
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+feof:
+    AsmName: _feof
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+ferror:
+    AsmName: _ferror
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+fflush:
+    AsmName: _fflush
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+fgetc:
+    AsmName: _fgetc
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+fgets:
+    AsmName: _fgets
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ unsigned char *
+fopen:
+    AsmName: _fopen
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ struct _FILE *
+fprintf:
+    AsmName: _fprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+fputc:
+    AsmName: _fputc
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+fputs:
+    AsmName: _fputs
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+fread:
+    AsmName: _fread
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning unsigned int
+freopen:
+    AsmName: _freopen
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ struct _FILE *
+fwrite:
+    AsmName: _fwrite
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning unsigned int
+fgetpos:
+    AsmName: _fgetpos
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+fsetpos:
+    AsmName: _fsetpos
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+ftell:
+    AsmName: _ftell
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning long
+fseek:
+    AsmName: _fseek
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+rewind:
+    AsmName: _rewind
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+getchar:
+    AsmName: _getchar
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+gets:
+    AsmName: _gets
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ unsigned char *
+perror:
+    AsmName: _perror
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+printf:
+    AsmName: _printf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+putchar:
+    AsmName: _putchar
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+puts:
+    AsmName: _puts
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+remove:
+    AsmName: _remove
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+rename:
+    AsmName: _rename
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+snprintf:
+    AsmName: _snprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+sprintf:
+    AsmName: _sprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+ungetc:
+    AsmName: _ungetc
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+vfprintf:
+    AsmName: _vfprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+vprintf:
+    AsmName: _vprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+vsnprintf:
+    AsmName: _vsnprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+vsprintf:
+    AsmName: _vsprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+scanf:
+    AsmName: _scanf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+fscanf:
+    AsmName: _fscanf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+sscanf:
+    AsmName: _sscanf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+vscanf:
+    AsmName: _vscanf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+vsscanf:
+    AsmName: _vsscanf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+vfscanf:
+    AsmName: _vfscanf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+fdopen:
+    AsmName: _fdopen
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ struct _FILE *
+fileno:
+    AsmName: _fileno
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+_poserror:
+    AsmName: __poserror
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+
+
+
+
+Global tag table
+================
+__vic2:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0001:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-0002:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-struct-0003:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0004:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-0005:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-struct-0006:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0007:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-0008:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0009:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-000A:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-000B:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-000C:
+    Flags: SC_STRUCT
+    Type:  (none)
+__sid_voice:
+    Flags: SC_STRUCT
+    Type:  (none)
+__sid:
+    Flags: SC_STRUCT
+    Type:  (none)
+__6526:
+    Flags: SC_STRUCT
+    Type:  (none)
+_FILE:
+    Flags: SC_STRUCT
+    Type:  (none)
+
+
+
+
+
+Macro Hash Table Summary
+  0 : empty
+  1 : CBM_T_VRP 
+  2 : empty
+  3 : CH_HLINE _CBM_T_USR 
+  4 : TGI_COLOR_BLUE 
+  5 : _CBM_T_DIR _CBM_T_SEQ COLOR_VIOLET COLOR_BLACK 
+  6 : getVideoRamAddress 
+  7 : CBM_T_DEL __OPT_s__ 
+  8 : CH_URCORNER _CBM_T_CBM 
+  9 : __SID_H 
+ 10 : empty
+ 11 : empty
+ 12 : empty
+ 13 : empty
+ 14 : joystick2isRight 
+ 15 : empty
+ 16 : CH_ENTER 
+ 17 : empty
+ 18 : empty
+ 19 : EOF joystickIsLeft 
+ 20 : empty
+ 21 : _VIDEO_H __bool_true_false_are_defined false SHOT_SPRITE _CBM_T_OTHER _CBM_T_PRG 
+ 22 : TGI_COLOR_CYAN 
+ 23 : empty
+ 24 : TV_OTHER TGI_COLOR_YELLOW COLOR_PURPLE 
+ 25 : empty
+ 26 : empty
+ 27 : ENEMY_SPRITE _CONIO_H COLOR_LIGHTGREEN 
+ 28 : empty
+ 29 : empty
+ 30 : empty
+ 31 : CBM_A_RO 
+ 32 : CBM_T_CBM 
+ 33 : empty
+ 34 : _CONFIG_H _HAVE_size_t 
+ 35 : TGI_COLOR_GRAY1 
+ 36 : TGI_COLOR_GRAY2 
+ 37 : MAX_SHOTS TGI_COLOR_GRAY3 
+ 38 : CBM_T_LNK 
+ 39 : setColumnSelect getVideoRamOffset joystickIsDirection CBM_A_RW _HAVE_wchar_t 
+ 40 : setVideoRamOffsetIndex getVideoRamOffsetIndex 
+ 41 : C64_OS_PET64 
+ 42 : TGI_COLOR_VIOLET 
+ 43 : TILE_WIDTH 
+ 44 : empty
+ 45 : CBM_T_SEQ 
+ 46 : empty
+ 47 : empty
+ 48 : _CBM_T_REL 
+ 49 : CPU_65816 __CBM__ 
+ 50 : empty
+ 51 : BRK 
+ 52 : empty
+ 53 : COLOR_BROWN 
+ 54 : empty
+ 55 : CBM_A_WO CH_LIRA 
+ 56 : empty
+ 57 : CH_LTEE _HAVE_ptrdiff_t 
+ 58 : _STDBOOL_H CH_CURS_DOWN 
+ 59 : CBM_T_REL _CBM_T_REG 
+ 60 : empty
+ 61 : L_tmpnam 
+ 62 : empty
+ 63 : empty
+ 64 : empty
+ 65 : _STDDEF_H 
+ 66 : __DATE__ 
+ 67 : _IONBF COLOR_BLUE 
+ 68 : C64_EU_NEW 
+ 69 : SEEK_CUR PLAYER_SPRITE 
+ 70 : C64_DTV 
+ 71 : __CC65_STD_C99__ 
+ 72 : joystick2isFire _CBM_H va_end TGI_COLOR_LIGHTRED 
+ 73 : _6502_H 
+ 74 : empty
+ 75 : joystickIsFire 
+ 76 : SEEK_END TGI_COLOR_GREEN __CC65__ 
+ 77 : _HAVE_NULL 
+ 78 : IRQ_NOT_HANDLED 
+ 79 : empty
+ 80 : TGI_COLOR_BROWN 
+ 81 : CH_VLINE 
+ 82 : _CBM_T_HEADER 
+ 83 : empty
+ 84 : joystick1isFire 
+ 85 : empty
+ 86 : empty
+ 87 : joystick2isDown 
+ 88 : MAX_LEVEL 
+ 89 : ENEMY_SPRITE_FILE1 
+ 90 : ENEMY_SPRITE_FILE2 
+ 91 : ENEMY_SPRITE_FILE3 
+ 92 : empty
+ 93 : CH_STOP 
+ 94 : empty
+ 95 : __CC65_STD__ 
+ 96 : empty
+ 97 : empty
+ 98 : empty
+ 99 : joystick1isDown 
+100 : _STDIO_H 
+101 : IRQ_HANDLED 
+102 : SHOT_SPRITE_FILE CH_PI __TIME__ 
+103 : COLOR_WHITE __OPT__ 
+104 : CBM_SEQ 
+105 : empty
+106 : empty
+107 : bool 
+108 : joystickIsDown _C64_H 
+109 : TGI_COLOR_PURPLE 
+110 : joystick1isRight _CBM_FILETYPE_H 
+111 : FOPEN_MAX 
+112 : JOYSTICK_LEFT CBM_T_HEADER 
+113 : TILE_LENGTH CH_RTEE 
+114 : __CC65_STD_CC65__ 
+115 : CH_LLCORNER 
+116 : NULL 
+117 : FILENAME_MAX 
+118 : empty
+119 : _IOLBF JOYSTICK_DOWN 
+120 : CPU_6502 
+121 : empty
+122 : putc _PLAYER_H SEI CPU_65C02 
+123 : empty
+124 : empty
+125 : JOYSTICK_UP COLOR_LIGHTBLUE 
+126 : _IOFBF COLOR_GRAY1 
+127 : COLOR_GRAY2 F6502_B 
+128 : COLOR_GRAY3 COLOR_ORANGE F6502_C 
+129 : VIC F6502_D 
+130 : __CC65_STD_C89__ 
+131 : getc _JOYSTICK_H 
+132 : CBM_READ 
+133 : setVideoBank getVideoBank BUFSIZ CH_F8 
+134 : _SHOT_H COLOR_YELLOW F6502_I 
+135 : empty
+136 : empty
+137 : empty
+138 : empty
+139 : MAX_SPREADING CH_LRCORNER TGI_COLOR_ORANGE F6502_N 
+140 : empty
+141 : TV_PAL 
+142 : CH_F1 
+143 : CH_F2 
+144 : CH_TTEE CH_F3 
+145 : CH_F4 
+146 : CH_CURS_RIGHT offsetof TGI_COLOR_BLACK CH_F5 
+147 : _ENEMY_H CBM_WRITE CH_F6 F6502_V 
+148 : CH_F7 
+149 : CH_ULCORNER SID 
+150 : CH_ESC CH_BTEE va_arg 
+151 : F6502_Z 
+152 : empty
+153 : empty
+154 : empty
+155 : __6526_H TGI_COLOR_LIGHTBLUE 
+156 : empty
+157 : joystickIsUp CH_HOME 
+158 : empty
+159 : empty
+160 : empty
+161 : C64_OS_US 
+162 : empty
+163 : empty
+164 : va_start 
+165 : CBM_T_PRG 
+166 : __OPT_i__ 
+167 : _SHOOTER_H COLOR_LIGHTRED 
+168 : COLOR_CYAN 
+169 : va_copy C64_EU_OLD 
+170 : CH_INS CIA1 
+171 : TILE_HEIGHT joystickIsRight CIA2 
+172 : empty
+173 : PLAYER_Y_POS_DEFAULT PLAYER_X_POS_DEFAULT CBM_T_DIR 
+174 : empty
+175 : true SHOT_START_Y 
+176 : TMP_MAX CH_CROSS 
+177 : SHOT_MIN_DELAY 
+178 : JOYSTICK_RIGHT CBM_T_OTHER 
+179 : empty
+180 : empty
+181 : empty
+182 : empty
+183 : empty
+184 : setCharacterGenerator getCharacterGenerator COLOR_RAM 
+185 : SEEK_SET PLAYGROUND_WIDTH _CBM_T_VRP 
+186 : empty
+187 : _PLAYGROUND_H 
+188 : joystick2isLeft 
+189 : TV_NTSC CH_CURS_UP 
+190 : _CBM_T_LNK 
+191 : setRowSelect JOYSTICK_FIRE 
+192 : joystick1isUp C64_OS_SX64 
+193 : CLI 
+194 : empty
+195 : empty
+196 : TGI_COLOR_WHITE 
+197 : PLAYER_SPRITE_FILE 
+198 : CH_CURS_LEFT TGI_COLOR_RED 
+199 : __OPT_r__ 
+200 : joystick1isLeft COLOR_GREEN 
+201 : empty
+202 : empty
+203 : _STDARG_H 
+204 : empty
+205 : joystick2isUp 
+206 : __STDC_HOSTED__ __C64__ 
+207 : _CBM_T_DEL __VIC2_H COLOR_RED 
+208 : empty
+209 : CH_DEL CBM_T_USR 
+210 : TGI_COLOR_LIGHTGREEN 
+Applied OptDeadJumps: 1 changes
+Applied OptUnusedLoads: 4 changes
+Applied OptStoreLoad: 2 changes
+Applied OptStackOps: 1 changes
+Applied OptJumpCascades: 2 changes
+Applied OptDeadJumps: 1 changes
+Applied OptRTS: 1 changes
+Applied OptDeadCode: 1 changes
+Applied OptBoolTrans: 1 changes
+Applied OptCondBranches1: 3 changes
+Applied OptJumpTarget3: 2 changes
+Applied OptUnusedLoads: 2 changes
+Applied OptDupLoads: 2 changes
+Applied OptJumpCascades: 4 changes
+Applied OptDeadCode: 3 changes
+Applied OptJumpCascades: 1 changes
+Applied OptDeadJumps: 1 changes
+Applied OptLoad2: 10 changes
+Applied OptSize2: 4 changes
+Applied OptBranchDist: 9 changes
+Applied OptJumpCascades: 1 changes
+Applied OptDeadJumps: 2 changes
+Applied OptRTS: 1 changes
+Applied OptDeadCode: 4 changes
+Applied OptBNegAX4: 3 changes
+Applied OptJumpCascades: 1 changes
+Applied OptDeadJumps: 1 changes
+Applied OptDeadCode: 1 changes
+Applied OptCondBranches1: 1 changes
+Applied OptCondBranches2: 1 changes
+Applied OptRTSJumps1: 2 changes
+Applied OptUnusedLoads: 4 changes
+Applied OptUnusedStores: 2 changes
+Applied OptTransfers4: 1 changes
+Applied OptCmp9: 1 changes
+Applied OptSize2: 3 changes
+Applied OptBranchDist: 4 changes
+
+Global symbol table
+===================
+size_t:
+    AsmName: _size_t
+    Flags: SC_TYPEDEF 0x10000
+    Type:  unsigned int
+getcpu:
+    AsmName: _getcpu
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning unsigned char
+_sys:
+    AsmName: __sys
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+brk_a:
+    AsmName: _brk_a
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  unsigned char
+brk_x:
+    AsmName: _brk_x
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  unsigned char
+brk_y:
+    AsmName: _brk_y
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  unsigned char
+brk_sr:
+    AsmName: _brk_sr
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  unsigned char
+brk_pc:
+    AsmName: _brk_pc
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  unsigned int
+brk_handler:
+    AsmName: _brk_handler
+    Flags: SC_TYPEDEF 0x10000
+    Type:  __near__ __near__ function returning void *
+set_brk:
+    AsmName: _set_brk
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+reset_brk:
+    AsmName: _reset_brk
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+irq_handler:
+    AsmName: _irq_handler
+    Flags: SC_TYPEDEF 0x10000
+    Type:  __near__ __near__ function returning unsigned char *
+set_irq:
+    AsmName: _set_irq
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+reset_irq:
+    AsmName: _reset_irq
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+c64_c256k_emd:
+    AsmName: _c64_c256k_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_dqbb_emd:
+    AsmName: _c64_dqbb_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_georam_emd:
+    AsmName: _c64_georam_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_isepic_emd:
+    AsmName: _c64_isepic_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_ram_emd:
+    AsmName: _c64_ram_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_ramcart_emd:
+    AsmName: _c64_ramcart_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_reu_emd:
+    AsmName: _c64_reu_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_vdc_emd:
+    AsmName: _c64_vdc_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+dtv_himem_emd:
+    AsmName: _dtv_himem_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_hitjoy_joy:
+    AsmName: _c64_hitjoy_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_numpad_joy:
+    AsmName: _c64_numpad_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_ptvjoy_joy:
+    AsmName: _c64_ptvjoy_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_stdjoy_joy:
+    AsmName: _c64_stdjoy_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_1351_mou:
+    AsmName: _c64_1351_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_joy_mou:
+    AsmName: _c64_joy_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_inkwell_mou:
+    AsmName: _c64_inkwell_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_pot_mou:
+    AsmName: _c64_pot_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_swlink_ser:
+    AsmName: _c64_swlink_ser
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_hi_tgi:
+    AsmName: _c64_hi_tgi
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+get_ostype:
+    AsmName: _get_ostype
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning unsigned char
+va_list:
+    AsmName: _va_list
+    Flags: SC_TYPEDEF 0x10000
+    Type:  __near__ unsigned char *
+ptrdiff_t:
+    AsmName: _ptrdiff_t
+    Flags: SC_TYPEDEF 0x10000
+    Type:  int
+wchar_t:
+    AsmName: _wchar_t
+    Flags: SC_TYPEDEF 0x10000
+    Type:  unsigned char
+_cbm_filetype:
+    AsmName: __cbm_filetype
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning unsigned char
+_filetype:
+    AsmName: __filetype
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  unsigned char
+get_tv:
+    AsmName: _get_tv
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning unsigned char
+cbm_k_acptr:
+    AsmName: _cbm_k_acptr
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning unsigned char
+cbm_k_basin:
+    AsmName: _cbm_k_basin
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning unsigned char
+cbm_k_bsout:
+    AsmName: _cbm_k_bsout
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+cbm_k_chkin:
+    AsmName: _cbm_k_chkin
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning unsigned char
+cbm_k_ciout:
+    AsmName: _cbm_k_ciout
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+cbm_k_ckout:
+    AsmName: _cbm_k_ckout
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning unsigned char
+cbm_k_clall:
+    AsmName: _cbm_k_clall
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+cbm_k_close:
+    AsmName: _cbm_k_close
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+cbm_k_clrch:
+    AsmName: _cbm_k_clrch
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+cbm_k_getin:
+    AsmName: _cbm_k_getin
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning unsigned char
+cbm_k_iobase:
+    AsmName: _cbm_k_iobase
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning unsigned int
+cbm_k_listen:
+    AsmName: _cbm_k_listen
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+cbm_k_load:
+    AsmName: _cbm_k_load
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning unsigned int
+cbm_k_open:
+    AsmName: _cbm_k_open
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning unsigned char
+cbm_k_readst:
+    AsmName: _cbm_k_readst
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning unsigned char
+cbm_k_save:
+    AsmName: _cbm_k_save
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning unsigned char
+cbm_k_setlfs:
+    AsmName: _cbm_k_setlfs
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+cbm_k_setnam:
+    AsmName: _cbm_k_setnam
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+cbm_k_talk:
+    AsmName: _cbm_k_talk
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+cbm_k_unlsn:
+    AsmName: _cbm_k_unlsn
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+cbm_load:
+    AsmName: _cbm_load
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning unsigned int
+cbm_save:
+    AsmName: _cbm_save
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning unsigned char
+cbm_open:
+    AsmName: _cbm_open
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning unsigned char
+cbm_close:
+    AsmName: _cbm_close
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+cbm_read:
+    AsmName: _cbm_read
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+cbm_write:
+    AsmName: _cbm_write
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+cbm_opendir:
+    AsmName: _cbm_opendir
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning unsigned char
+cbm_readdir:
+    AsmName: _cbm_readdir
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning unsigned char
+cbm_closedir:
+    AsmName: _cbm_closedir
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+clrscr:
+    AsmName: _clrscr
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+kbhit:
+    AsmName: _kbhit
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning unsigned char
+gotox:
+    AsmName: _gotox
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+gotoy:
+    AsmName: _gotoy
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+gotoxy:
+    AsmName: _gotoxy
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+wherex:
+    AsmName: _wherex
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning unsigned char
+wherey:
+    AsmName: _wherey
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning unsigned char
+cputc:
+    AsmName: _cputc
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+cputcxy:
+    AsmName: _cputcxy
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+cputs:
+    AsmName: _cputs
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+cputsxy:
+    AsmName: _cputsxy
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+cprintf:
+    AsmName: _cprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+vcprintf:
+    AsmName: _vcprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+cgetc:
+    AsmName: _cgetc
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning unsigned char
+cscanf:
+    AsmName: _cscanf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+vcscanf:
+    AsmName: _vcscanf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+cursor:
+    AsmName: _cursor
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning unsigned char
+revers:
+    AsmName: _revers
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning unsigned char
+textcolor:
+    AsmName: _textcolor
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning unsigned char
+bgcolor:
+    AsmName: _bgcolor
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning unsigned char
+bordercolor:
+    AsmName: _bordercolor
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning unsigned char
+chline:
+    AsmName: _chline
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+chlinexy:
+    AsmName: _chlinexy
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+cvline:
+    AsmName: _cvline
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+cvlinexy:
+    AsmName: _cvlinexy
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+cclear:
+    AsmName: _cclear
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+cclearxy:
+    AsmName: _cclearxy
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+screensize:
+    AsmName: _screensize
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+cputhex8:
+    AsmName: _cputhex8
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+cputhex16:
+    AsmName: _cputhex16
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+enemyInitialize:
+    AsmName: _enemyInitialize
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_REF 0x10000
+    Type:  __near__ function returning signed short
+enemyLoad:
+    AsmName: _enemyLoad
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_REF 0x10000
+    Type:  __near__ function returning signed short
+enemyMoveAll:
+    AsmName: _enemyMoveAll
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_REF 0x10000
+    Type:  __near__ function returning void
+playerXpos:
+    AsmName: _playerXpos
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  int
+playerYpos:
+    AsmName: _playerYpos
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  unsigned short
+findFreeSlot:
+    AsmName: _findFreeSlot
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning signed short
+playerFireShot:
+    AsmName: _playerFireShot
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning signed short
+playerAnimateShots:
+    AsmName: _playerAnimateShots
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+playerInitialize:
+    AsmName: _playerInitialize
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_REF 0x10000
+    Type:  __near__ function returning signed short
+playerLoad:
+    AsmName: _playerLoad
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_REF 0x10000
+    Type:  __near__ function returning signed short
+playerMove:
+    AsmName: _playerMove
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_REF 0x10000
+    Type:  __near__ function returning void
+playgroundInitialize:
+    AsmName: _playgroundInitialize
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_REF 0x10000
+    Type:  __near__ function returning signed short
+playgroundLoad:
+    AsmName: _playgroundLoad
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_REF 0x10000
+    Type:  __near__ function returning signed short
+playgroundScroll:
+    AsmName: _playgroundScroll
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_REF 0x10000
+    Type:  __near__ function returning void
+playgroundWriteLine:
+    AsmName: _playgroundWriteLine
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+playgroundWriteTile:
+    AsmName: _playgroundWriteTile
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+gameInitialize:
+    AsmName: _gameInitialize
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF SC_REF 0x10000
+    Type:  __near__ function returning signed short
+levelInitialize:
+    AsmName: _levelInitialize
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF SC_REF 0x10000
+    Type:  __near__ function returning signed short
+levelPlay:
+    AsmName: _levelPlay
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF SC_REF 0x10000
+    Type:  __near__ function returning signed short
+main:
+    AsmName: _main
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF 0x10000
+    Type:  __near__ function returning int
+shotDelay:
+    AsmName: _shotDelay
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  unsigned short
+spread_factor:
+    AsmName: _spread_factor
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  unsigned short
+shotX:
+    AsmName: _shotX
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  int [6]
+shotY:
+    AsmName: _shotY
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  unsigned short [6]
+flyingShots:
+    AsmName: _flyingShots
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  signed short
+shotInitialize:
+    AsmName: _shotInitialize
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_REF 0x10000
+    Type:  __near__ function returning signed short
+shotInstallRasterIRQ:
+    AsmName: _shotInstallRasterIRQ
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+shotLoad:
+    AsmName: _shotLoad
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_REF 0x10000
+    Type:  __near__ function returning signed short
+shotMove:
+    AsmName: _shotMove
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+shotMoveAll:
+    AsmName: _shotMoveAll
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_REF 0x10000
+    Type:  __near__ function returning void
+shotNew:
+    AsmName: _shotNew
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning signed short
+shotRasterIRQ:
+    AsmName: _shotRasterIRQ
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+shotRemove:
+    AsmName: _shotRemove
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+shotRender:
+    AsmName: _shotRender
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_REF 0x10000
+    Type:  __near__ function returning void
+_Bool:
+    AsmName: __Bool
+    Flags: SC_TYPEDEF 0x10000
+    Type:  unsigned char
+FILE:
+    AsmName: _FILE
+    Flags: SC_TYPEDEF 0x10000
+    Type:  struct _FILE
+fpos_t:
+    AsmName: _fpos_t
+    Flags: SC_TYPEDEF 0x10000
+    Type:  unsigned long
+stdin:
+    AsmName: _stdin
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  __near__ struct _FILE *
+stdout:
+    AsmName: _stdout
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  __near__ struct _FILE *
+stderr:
+    AsmName: _stderr
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  __near__ struct _FILE *
+clearerr:
+    AsmName: _clearerr
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+fclose:
+    AsmName: _fclose
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+feof:
+    AsmName: _feof
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+ferror:
+    AsmName: _ferror
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+fflush:
+    AsmName: _fflush
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+fgetc:
+    AsmName: _fgetc
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+fgets:
+    AsmName: _fgets
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ unsigned char *
+fopen:
+    AsmName: _fopen
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ struct _FILE *
+fprintf:
+    AsmName: _fprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+fputc:
+    AsmName: _fputc
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+fputs:
+    AsmName: _fputs
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+fread:
+    AsmName: _fread
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning unsigned int
+freopen:
+    AsmName: _freopen
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ struct _FILE *
+fwrite:
+    AsmName: _fwrite
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning unsigned int
+fgetpos:
+    AsmName: _fgetpos
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+fsetpos:
+    AsmName: _fsetpos
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+ftell:
+    AsmName: _ftell
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning long
+fseek:
+    AsmName: _fseek
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+rewind:
+    AsmName: _rewind
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+getchar:
+    AsmName: _getchar
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+gets:
+    AsmName: _gets
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ unsigned char *
+perror:
+    AsmName: _perror
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+printf:
+    AsmName: _printf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+putchar:
+    AsmName: _putchar
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+puts:
+    AsmName: _puts
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+remove:
+    AsmName: _remove
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+rename:
+    AsmName: _rename
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+snprintf:
+    AsmName: _snprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+sprintf:
+    AsmName: _sprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+ungetc:
+    AsmName: _ungetc
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+vfprintf:
+    AsmName: _vfprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+vprintf:
+    AsmName: _vprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+vsnprintf:
+    AsmName: _vsnprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+vsprintf:
+    AsmName: _vsprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+scanf:
+    AsmName: _scanf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+fscanf:
+    AsmName: _fscanf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+sscanf:
+    AsmName: _sscanf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+vscanf:
+    AsmName: _vscanf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+vsscanf:
+    AsmName: _vsscanf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+vfscanf:
+    AsmName: _vfscanf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+fdopen:
+    AsmName: _fdopen
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ struct _FILE *
+fileno:
+    AsmName: _fileno
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+_poserror:
+    AsmName: __poserror
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+video_clear:
+    AsmName: _video_clear
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+video_init:
+    AsmName: _video_init
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_REF 0x10000
+    Type:  __near__ function returning void
+video_scroll:
+    AsmName: _video_scroll
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_REF 0x10000
+    Type:  __near__ function returning void
+video_wait4screen_end:
+    AsmName: _video_wait4screen_end
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_REF 0x10000
+    Type:  __near__ function returning void
+level:
+    AsmName: _level
+    Flags: SC_STATIC SC_EXTERN SC_STORAGE SC_DEF SC_REF 0x10000
+    Type:  signed short
+loadedLevel:
+    AsmName: _loadedLevel
+    Flags: SC_STATIC SC_EXTERN SC_STORAGE SC_DEF SC_REF 0x10000
+    Type:  signed short
+
+
+
+
+Global tag table
+================
+regs:
+    Flags: SC_STRUCT
+    Type:  (none)
+__vic2:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0001:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-0002:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-struct-0003:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0004:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-0005:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-struct-0006:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0007:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-0008:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0009:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-000A:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-000B:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-000C:
+    Flags: SC_STRUCT
+    Type:  (none)
+__sid_voice:
+    Flags: SC_STRUCT
+    Type:  (none)
+__sid:
+    Flags: SC_STRUCT
+    Type:  (none)
+__6526:
+    Flags: SC_STRUCT
+    Type:  (none)
+cbm_dirent:
+    Flags: SC_STRUCT
+    Type:  (none)
+_FILE:
+    Flags: SC_STRUCT
+    Type:  (none)
+
+
+
+
+
+Macro Hash Table Summary
+  0 : empty
+  1 : empty
+  2 : empty
+  3 : empty
+  4 : spriteEnableMulticolor TGI_COLOR_BLUE 
+  5 : COLOR_VIOLET COLOR_BLACK 
+  6 : empty
+  7 : __OPT_s__ 
+  8 : empty
+  9 : __SID_H 
+ 10 : empty
+ 11 : empty
+ 12 : empty
+ 13 : empty
+ 14 : joystick2isRight 
+ 15 : empty
+ 16 : empty
+ 17 : empty
+ 18 : empty
+ 19 : EOF joystickIsLeft 
+ 20 : empty
+ 21 : __bool_true_false_are_defined false SHOT_SPRITE 
+ 22 : TGI_COLOR_CYAN 
+ 23 : empty
+ 24 : TGI_COLOR_YELLOW COLOR_PURPLE 
+ 25 : empty
+ 26 : empty
+ 27 : COLOR_LIGHTGREEN 
+ 28 : empty
+ 29 : empty
+ 30 : empty
+ 31 : empty
+ 32 : empty
+ 33 : empty
+ 34 : _CONFIG_H _HAVE_size_t 
+ 35 : TGI_COLOR_GRAY1 
+ 36 : TGI_COLOR_GRAY2 
+ 37 : MAX_SHOTS TGI_COLOR_GRAY3 
+ 38 : empty
+ 39 : _HAVE_wchar_t joystickIsDirection 
+ 40 : _SPRITE_H 
+ 41 : C64_OS_PET64 
+ 42 : TGI_COLOR_VIOLET 
+ 43 : empty
+ 44 : empty
+ 45 : empty
+ 46 : empty
+ 47 : empty
+ 48 : empty
+ 49 : spriteSetMultiColor CPU_65816 __CBM__ 
+ 50 : empty
+ 51 : BRK 
+ 52 : empty
+ 53 : _SOUND_H COLOR_BROWN 
+ 54 : empty
+ 55 : empty
+ 56 : empty
+ 57 : _HAVE_ptrdiff_t 
+ 58 : _STDBOOL_H 
+ 59 : empty
+ 60 : SOUND_SHOT 
+ 61 : L_tmpnam 
+ 62 : empty
+ 63 : empty
+ 64 : empty
+ 65 : _STDDEF_H 
+ 66 : __DATE__ 
+ 67 : _IONBF COLOR_BLUE 
+ 68 : C64_EU_NEW 
+ 69 : SEEK_CUR PLAYER_SPRITE 
+ 70 : C64_DTV 
+ 71 : __CC65_STD_C99__ 
+ 72 : va_end joystick2isFire TGI_COLOR_LIGHTRED 
+ 73 : _6502_H 
+ 74 : empty
+ 75 : joystickIsFire 
+ 76 : SEEK_END TGI_COLOR_GREEN __CC65__ 
+ 77 : _HAVE_NULL 
+ 78 : IRQ_NOT_HANDLED 
+ 79 : empty
+ 80 : TGI_COLOR_BROWN 
+ 81 : empty
+ 82 : empty
+ 83 : empty
+ 84 : joystick1isFire 
+ 85 : empty
+ 86 : empty
+ 87 : joystick2isDown 
+ 88 : empty
+ 89 : empty
+ 90 : empty
+ 91 : empty
+ 92 : empty
+ 93 : empty
+ 94 : empty
+ 95 : __CC65_STD__ 
+ 96 : empty
+ 97 : spriteSetPosition 
+ 98 : empty
+ 99 : joystick1isDown 
+100 : _STDIO_H 
+101 : IRQ_HANDLED 
+102 : SHOT_SPRITE_FILE __TIME__ 
+103 : COLOR_WHITE __OPT__ 
+104 : empty
+105 : empty
+106 : empty
+107 : bool 
+108 : joystickIsDown _C64_H 
+109 : TGI_COLOR_PURPLE 
+110 : joystick1isRight 
+111 : FOPEN_MAX 
+112 : JOYSTICK_LEFT 
+113 : empty
+114 : __CC65_STD_CC65__ 
+115 : empty
+116 : NULL 
+117 : FILENAME_MAX 
+118 : empty
+119 : _IOLBF spriteEnable JOYSTICK_DOWN 
+120 : spriteSetColor CPU_6502 
+121 : spriteSetYposition 
+122 : putc _PLAYER_H SEI CPU_65C02 
+123 : empty
+124 : empty
+125 : JOYSTICK_UP COLOR_LIGHTBLUE 
+126 : _IOFBF COLOR_GRAY1 
+127 : COLOR_GRAY2 F6502_B 
+128 : COLOR_GRAY3 COLOR_ORANGE F6502_C 
+129 : VIC F6502_D 
+130 : __CC65_STD_C89__ 
+131 : getc _JOYSTICK_H 
+132 : empty
+133 : BUFSIZ CH_F8 
+134 : _SHOT_H COLOR_YELLOW F6502_I 
+135 : empty
+136 : empty
+137 : empty
+138 : empty
+139 : MAX_SPREADING TGI_COLOR_ORANGE F6502_N 
+140 : empty
+141 : empty
+142 : CH_F1 
+143 : CH_F2 
+144 : CH_F3 
+145 : CH_F4 
+146 : offsetof TGI_COLOR_BLACK CH_F5 
+147 : CH_F6 F6502_V 
+148 : CH_F7 
+149 : SID 
+150 : va_arg 
+151 : F6502_Z 
+152 : empty
+153 : empty
+154 : empty
+155 : __6526_H TGI_COLOR_LIGHTBLUE 
+156 : empty
+157 : joystickIsUp 
+158 : empty
+159 : empty
+160 : empty
+161 : C64_OS_US 
+162 : empty
+163 : empty
+164 : va_start 
+165 : empty
+166 : __OPT_i__ 
+167 : COLOR_LIGHTRED 
+168 : COLOR_CYAN 
+169 : va_copy C64_EU_OLD 
+170 : CIA1 
+171 : joystickIsRight CIA2 
+172 : empty
+173 : PLAYER_Y_POS_DEFAULT PLAYER_X_POS_DEFAULT 
+174 : empty
+175 : true SHOT_START_Y 
+176 : TMP_MAX 
+177 : SHOT_MIN_DELAY 
+178 : JOYSTICK_RIGHT 
+179 : empty
+180 : empty
+181 : empty
+182 : empty
+183 : empty
+184 : COLOR_RAM 
+185 : SEEK_SET 
+186 : empty
+187 : empty
+188 : joystick2isLeft 
+189 : empty
+190 : spriteSetExpandX 
+191 : spriteSetExpandY JOYSTICK_FIRE 
+192 : joystick1isUp C64_OS_SX64 
+193 : CLI 
+194 : empty
+195 : empty
+196 : TGI_COLOR_WHITE 
+197 : spriteSetXposition PLAYER_SPRITE_FILE 
+198 : TGI_COLOR_RED 
+199 : __OPT_r__ 
+200 : joystick1isLeft COLOR_GREEN 
+201 : empty
+202 : empty
+203 : _STDARG_H 
+204 : empty
+205 : joystick2isUp 
+206 : __STDC_HOSTED__ __C64__ 
+207 : __VIC2_H COLOR_RED 
+208 : empty
+209 : empty
+210 : TGI_COLOR_LIGHTGREEN 
+Applied OptDeadJumps: 1 changes
+Applied OptRTS: 1 changes
+Applied OptDeadCode: 1 changes
+Applied OptRTS: 1 changes
+Applied OptDeadCode: 1 changes
+Applied OptUnusedLoads: 8 changes
+Applied OptDupLoads: 1 changes
+Applied OptLoad2: 1 changes
+Applied OptBNegAX4: 1 changes
+Applied OptDecouple: 5 changes
+Applied OptRTS: 1 changes
+Applied OptDeadCode: 1 changes
+Applied OptUnusedLoads: 2 changes
+Applied OptDupLoads: 1 changes
+Applied OptTransfers4: 1 changes
+Applied OptJumpCascades: 1 changes
+Applied OptSize2: 6 changes
+Applied OptBranchDist: 1 changes
+Applied OptPtrLoad17: 1 changes
+Applied OptShift6: 1 changes
+Applied OptDecouple: 1 changes
+Applied OptRTS: 1 changes
+Applied OptDeadCode: 1 changes
+Applied OptBoolTrans: 1 changes
+Applied OptJumpTarget3: 1 changes
+Applied OptDupLoads: 1 changes
+Applied OptTransfers4: 1 changes
+Applied OptLoad2: 2 changes
+Applied OptSize2: 2 changes
+Applied OptTransfers3: 1 changes
+Applied OptBranchDist: 1 changes
+Applied OptStore2: 1 changes
+Applied OptStackOps: 1 changes
+Applied OptRTS: 1 changes
+Applied OptDeadCode: 1 changes
+Applied OptBoolTrans: 1 changes
+Applied OptCondBranches1: 1 changes
+Applied OptCondBranches2: 1 changes
+Applied OptCmp4: 1 changes
+Applied OptUnusedLoads: 8 changes
+Applied OptUnusedStores: 4 changes
+Applied OptCmp9: 1 changes
+Applied OptLoad2: 3 changes
+Applied OptDupLoads: 1 changes
+Applied OptSize1: 1 changes
+Applied OptSize2: 3 changes
+Applied OptBranchDist: 2 changes
+Applied OptShift6: 2 changes
+Applied OptStackOps: 2 changes
+Applied OptJumpCascades: 1 changes
+Applied OptDeadJumps: 1 changes
+Applied OptRTS: 1 changes
+Applied OptDeadCode: 1 changes
+Applied OptBoolTrans: 2 changes
+Applied OptCondBranches1: 2 changes
+Applied OptCondBranches2: 1 changes
+Applied OptCmp4: 2 changes
+Applied OptJumpTarget3: 5 changes
+Applied OptUnusedLoads: 6 changes
+Applied OptDupLoads: 3 changes
+Applied OptStoreLoad: 1 changes
+Applied OptTransfers3: 2 changes
+Applied OptTransfers4: 3 changes
+Applied OptJumpCascades: 4 changes
+Applied OptDeadCode: 1 changes
+Applied OptCmp3: 1 changes
+Applied OptTransfers3: 2 changes
+Applied OptDupLoads: 1 changes
+Applied OptTransfers3: 2 changes
+Applied OptLoad2: 2 changes
+Applied OptDupLoads: 1 changes
+Applied OptSize2: 5 changes
+Applied OptBranchDist: 2 changes
+Applied OptRTSJumps2: 1 changes
+Applied OptDeadCode: 1 changes
+Applied OptDeadCode: 1 changes
+Applied OptPtrLoad7: 2 changes
+Applied OptShift6: 2 changes
+Applied OptDecouple: 2 changes
+Applied OptStackOps: 1 changes
+Applied OptRTS: 1 changes
+Applied OptDeadCode: 5 changes
+Applied OptBoolTrans: 1 changes
+Applied OptCondBranches1: 1 changes
+Applied OptCondBranches2: 1 changes
+Applied OptUnusedLoads: 5 changes
+Applied OptUnusedStores: 2 changes
+Applied OptDupLoads: 2 changes
+Applied OptTransfers4: 2 changes
+Applied OptJumpCascades: 1 changes
+Applied OptDeadJumps: 1 changes
+Applied OptJumpTarget1: 1 changes
+Applied OptCmp9: 1 changes
+Applied OptJumpTarget1: 1 changes
+Applied OptStore1: 1 changes
+Applied OptLoad2: 6 changes
+Applied OptSize1: 1 changes
+Applied OptUnusedLoads: 1 changes
+Applied OptSize2: 6 changes
+Applied OptTransfers3: 2 changes
+Applied OptBranchDist: 2 changes
+Applied OptRTSJumps2: 1 changes
+Applied OptDeadCode: 1 changes
+Applied OptPtrLoad1: 1 changes
+Applied OptPtrLoad7: 2 changes
+Applied OptShift6: 1 changes
+Applied OptStore2: 1 changes
+Applied OptDecouple: 2 changes
+Applied OptStackOps: 2 changes
+Applied OptRTS: 1 changes
+Applied OptDeadCode: 1 changes
+Applied OptCondBranches1: 1 changes
+Applied OptCondBranches2: 1 changes
+Applied OptUnusedLoads: 14 changes
+Applied OptUnusedStores: 2 changes
+Applied OptTransfers4: 2 changes
+Applied OptPushPop: 1 changes
+Applied OptPrecalc: 1 changes
+Applied OptCmp9: 1 changes
+Applied OptUnusedLoads: 3 changes
+Applied OptDupLoads: 1 changes
+Applied OptTransfers1: 1 changes
+Applied OptUnusedLoads: 1 changes
+Applied OptLoad2: 5 changes
+Applied OptDupLoads: 2 changes
+Applied OptSize1: 1 changes
+Applied OptSize2: 5 changes
+Applied OptTransfers3: 3 changes
+Applied OptBranchDist: 1 changes
+
+Global symbol table
+===================
+size_t:
+    AsmName: _size_t
+    Flags: SC_TYPEDEF 0x10000
+    Type:  unsigned int
+getcpu:
+    AsmName: _getcpu
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning unsigned char
+_sys:
+    AsmName: __sys
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+brk_a:
+    AsmName: _brk_a
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  unsigned char
+brk_x:
+    AsmName: _brk_x
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  unsigned char
+brk_y:
+    AsmName: _brk_y
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  unsigned char
+brk_sr:
+    AsmName: _brk_sr
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  unsigned char
+brk_pc:
+    AsmName: _brk_pc
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  unsigned int
+brk_handler:
+    AsmName: _brk_handler
+    Flags: SC_TYPEDEF 0x10000
+    Type:  __near__ __near__ function returning void *
+set_brk:
+    AsmName: _set_brk
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+reset_brk:
+    AsmName: _reset_brk
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+irq_handler:
+    AsmName: _irq_handler
+    Flags: SC_TYPEDEF 0x10000
+    Type:  __near__ __near__ function returning unsigned char *
+set_irq:
+    AsmName: _set_irq
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+reset_irq:
+    AsmName: _reset_irq
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+c64_c256k_emd:
+    AsmName: _c64_c256k_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_dqbb_emd:
+    AsmName: _c64_dqbb_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_georam_emd:
+    AsmName: _c64_georam_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_isepic_emd:
+    AsmName: _c64_isepic_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_ram_emd:
+    AsmName: _c64_ram_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_ramcart_emd:
+    AsmName: _c64_ramcart_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_reu_emd:
+    AsmName: _c64_reu_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_vdc_emd:
+    AsmName: _c64_vdc_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+dtv_himem_emd:
+    AsmName: _dtv_himem_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_hitjoy_joy:
+    AsmName: _c64_hitjoy_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_numpad_joy:
+    AsmName: _c64_numpad_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_ptvjoy_joy:
+    AsmName: _c64_ptvjoy_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_stdjoy_joy:
+    AsmName: _c64_stdjoy_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_1351_mou:
+    AsmName: _c64_1351_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_joy_mou:
+    AsmName: _c64_joy_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_inkwell_mou:
+    AsmName: _c64_inkwell_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_pot_mou:
+    AsmName: _c64_pot_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_swlink_ser:
+    AsmName: _c64_swlink_ser
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_hi_tgi:
+    AsmName: _c64_hi_tgi
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+get_ostype:
+    AsmName: _get_ostype
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning unsigned char
+playerXpos:
+    AsmName: _playerXpos
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  int
+playerYpos:
+    AsmName: _playerYpos
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  unsigned short
+findFreeSlot:
+    AsmName: _findFreeSlot
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning signed short
+playerFireShot:
+    AsmName: _playerFireShot
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning signed short
+playerAnimateShots:
+    AsmName: _playerAnimateShots
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+playerInitialize:
+    AsmName: _playerInitialize
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning signed short
+playerLoad:
+    AsmName: _playerLoad
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning signed short
+playerMove:
+    AsmName: _playerMove
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+shotDelay:
+    AsmName: _shotDelay
+    Flags: SC_STATIC SC_EXTERN SC_STORAGE SC_DEF SC_REF 0x10000
+    Type:  unsigned short
+spread_factor:
+    AsmName: _spread_factor
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  unsigned short
+shotX:
+    AsmName: _shotX
+    Flags: SC_STATIC SC_EXTERN SC_STORAGE SC_DEF SC_REF 0x10000
+    Type:  int [6]
+shotY:
+    AsmName: _shotY
+    Flags: SC_STATIC SC_EXTERN SC_STORAGE SC_DEF SC_REF 0x10000
+    Type:  unsigned short [6]
+flyingShots:
+    AsmName: _flyingShots
+    Flags: SC_STATIC SC_EXTERN SC_STORAGE SC_DEF SC_REF 0x10000
+    Type:  signed short
+shotInitialize:
+    AsmName: _shotInitialize
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF 0x10000
+    Type:  __near__ function returning signed short
+shotInstallRasterIRQ:
+    AsmName: _shotInstallRasterIRQ
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF SC_REF 0x10000
+    Type:  __near__ function returning void
+shotLoad:
+    AsmName: _shotLoad
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF 0x10000
+    Type:  __near__ function returning signed short
+shotMove:
+    AsmName: _shotMove
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF SC_REF 0x10000
+    Type:  __near__ function returning void
+shotMoveAll:
+    AsmName: _shotMoveAll
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF 0x10000
+    Type:  __near__ function returning void
+shotNew:
+    AsmName: _shotNew
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF 0x10000
+    Type:  __near__ function returning signed short
+shotRasterIRQ:
+    AsmName: _shotRasterIRQ
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF SC_REF 0x10000
+    Type:  __near__ function returning void
+shotRemove:
+    AsmName: _shotRemove
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF SC_REF 0x10000
+    Type:  __near__ function returning void
+shotRender:
+    AsmName: _shotRender
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF 0x10000
+    Type:  __near__ function returning void
+soundPlayNote:
+    AsmName: _soundPlayNote
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+soundPlayEffect:
+    AsmName: _soundPlayEffect
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_REF 0x10000
+    Type:  __near__ function returning void
+spriteGetPointer:
+    AsmName: _spriteGetPointer
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning __near__ unsigned char *
+spriteLoad:
+    AsmName: _spriteLoad
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_REF 0x10000
+    Type:  __near__ function returning int
+_Bool:
+    AsmName: __Bool
+    Flags: SC_TYPEDEF 0x10000
+    Type:  unsigned char
+ptrdiff_t:
+    AsmName: _ptrdiff_t
+    Flags: SC_TYPEDEF 0x10000
+    Type:  int
+wchar_t:
+    AsmName: _wchar_t
+    Flags: SC_TYPEDEF 0x10000
+    Type:  unsigned char
+va_list:
+    AsmName: _va_list
+    Flags: SC_TYPEDEF 0x10000
+    Type:  __near__ unsigned char *
+FILE:
+    AsmName: _FILE
+    Flags: SC_TYPEDEF 0x10000
+    Type:  struct _FILE
+fpos_t:
+    AsmName: _fpos_t
+    Flags: SC_TYPEDEF 0x10000
+    Type:  unsigned long
+stdin:
+    AsmName: _stdin
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  __near__ struct _FILE *
+stdout:
+    AsmName: _stdout
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  __near__ struct _FILE *
+stderr:
+    AsmName: _stderr
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  __near__ struct _FILE *
+clearerr:
+    AsmName: _clearerr
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+fclose:
+    AsmName: _fclose
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+feof:
+    AsmName: _feof
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+ferror:
+    AsmName: _ferror
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+fflush:
+    AsmName: _fflush
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+fgetc:
+    AsmName: _fgetc
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+fgets:
+    AsmName: _fgets
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ unsigned char *
+fopen:
+    AsmName: _fopen
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ struct _FILE *
+fprintf:
+    AsmName: _fprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+fputc:
+    AsmName: _fputc
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+fputs:
+    AsmName: _fputs
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+fread:
+    AsmName: _fread
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning unsigned int
+freopen:
+    AsmName: _freopen
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ struct _FILE *
+fwrite:
+    AsmName: _fwrite
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning unsigned int
+fgetpos:
+    AsmName: _fgetpos
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+fsetpos:
+    AsmName: _fsetpos
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+ftell:
+    AsmName: _ftell
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning long
+fseek:
+    AsmName: _fseek
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+rewind:
+    AsmName: _rewind
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+getchar:
+    AsmName: _getchar
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+gets:
+    AsmName: _gets
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ unsigned char *
+perror:
+    AsmName: _perror
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+printf:
+    AsmName: _printf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+putchar:
+    AsmName: _putchar
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+puts:
+    AsmName: _puts
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+remove:
+    AsmName: _remove
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+rename:
+    AsmName: _rename
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+snprintf:
+    AsmName: _snprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+sprintf:
+    AsmName: _sprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+ungetc:
+    AsmName: _ungetc
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+vfprintf:
+    AsmName: _vfprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+vprintf:
+    AsmName: _vprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+vsnprintf:
+    AsmName: _vsnprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+vsprintf:
+    AsmName: _vsprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+scanf:
+    AsmName: _scanf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+fscanf:
+    AsmName: _fscanf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+sscanf:
+    AsmName: _sscanf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+vscanf:
+    AsmName: _vscanf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+vsscanf:
+    AsmName: _vsscanf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+vfscanf:
+    AsmName: _vfscanf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+fdopen:
+    AsmName: _fdopen
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ struct _FILE *
+fileno:
+    AsmName: _fileno
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+_poserror:
+    AsmName: __poserror
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+currentlyRenderedShot:
+    AsmName: _currentlyRenderedShot
+    Flags: SC_STATIC SC_EXTERN SC_STORAGE SC_DEF SC_REF 0x10000
+    Type:  signed short
+
+
+
+
+Global tag table
+================
+regs:
+    Flags: SC_STRUCT
+    Type:  (none)
+__vic2:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0001:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-0002:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-struct-0003:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0004:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-0005:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-struct-0006:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0007:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-0008:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0009:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-000A:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-000B:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-000C:
+    Flags: SC_STRUCT
+    Type:  (none)
+__sid_voice:
+    Flags: SC_STRUCT
+    Type:  (none)
+__sid:
+    Flags: SC_STRUCT
+    Type:  (none)
+__6526:
+    Flags: SC_STRUCT
+    Type:  (none)
+note:
+    Flags: SC_STRUCT
+    Type:  (none)
+_FILE:
+    Flags: SC_STRUCT
+    Type:  (none)
+
+
+
+
+
+Macro Hash Table Summary
+  0 : empty
+  1 : empty
+  2 : empty
+  3 : empty
+  4 : spriteEnableMulticolor TGI_COLOR_BLUE 
+  5 : COLOR_VIOLET COLOR_BLACK 
+  6 : getVideoRamAddress 
+  7 : __OPT_s__ 
+  8 : empty
+  9 : __SID_H 
+ 10 : empty
+ 11 : empty
+ 12 : empty
+ 13 : empty
+ 14 : empty
+ 15 : empty
+ 16 : empty
+ 17 : empty
+ 18 : empty
+ 19 : empty
+ 20 : empty
+ 21 : _VIDEO_H __bool_true_false_are_defined false 
+ 22 : TGI_COLOR_CYAN 
+ 23 : empty
+ 24 : TGI_COLOR_YELLOW COLOR_PURPLE 
+ 25 : empty
+ 26 : empty
+ 27 : COLOR_LIGHTGREEN ENEMY_SPRITE 
+ 28 : empty
+ 29 : empty
+ 30 : empty
+ 31 : empty
+ 32 : empty
+ 33 : empty
+ 34 : _CONFIG_H 
+ 35 : TGI_COLOR_GRAY1 
+ 36 : TGI_COLOR_GRAY2 
+ 37 : TGI_COLOR_GRAY3 
+ 38 : empty
+ 39 : setColumnSelect getVideoRamOffset 
+ 40 : setVideoRamOffsetIndex getVideoRamOffsetIndex _SPRITE_H 
+ 41 : C64_OS_PET64 
+ 42 : TGI_COLOR_VIOLET 
+ 43 : empty
+ 44 : empty
+ 45 : empty
+ 46 : empty
+ 47 : empty
+ 48 : empty
+ 49 : spriteSetMultiColor __CBM__ 
+ 50 : empty
+ 51 : empty
+ 52 : empty
+ 53 : COLOR_BROWN 
+ 54 : empty
+ 55 : empty
+ 56 : empty
+ 57 : empty
+ 58 : _STDBOOL_H 
+ 59 : empty
+ 60 : empty
+ 61 : empty
+ 62 : empty
+ 63 : empty
+ 64 : empty
+ 65 : empty
+ 66 : __DATE__ 
+ 67 : COLOR_BLUE 
+ 68 : C64_EU_NEW 
+ 69 : empty
+ 70 : C64_DTV 
+ 71 : __CC65_STD_C99__ 
+ 72 : TGI_COLOR_LIGHTRED 
+ 73 : empty
+ 74 : empty
+ 75 : empty
+ 76 : TGI_COLOR_GREEN __CC65__ 
+ 77 : empty
+ 78 : empty
+ 79 : empty
+ 80 : TGI_COLOR_BROWN 
+ 81 : empty
+ 82 : empty
+ 83 : empty
+ 84 : empty
+ 85 : empty
+ 86 : empty
+ 87 : empty
+ 88 : empty
+ 89 : ENEMY_SPRITE_FILE1 
+ 90 : ENEMY_SPRITE_FILE2 
+ 91 : ENEMY_SPRITE_FILE3 
+ 92 : empty
+ 93 : empty
+ 94 : empty
+ 95 : __CC65_STD__ 
+ 96 : empty
+ 97 : spriteSetPosition 
+ 98 : empty
+ 99 : empty
+100 : empty
+101 : empty
+102 : __TIME__ 
+103 : COLOR_WHITE __OPT__ 
+104 : empty
+105 : empty
+106 : empty
+107 : bool 
+108 : _C64_H 
+109 : TGI_COLOR_PURPLE 
+110 : empty
+111 : empty
+112 : empty
+113 : empty
+114 : __CC65_STD_CC65__ 
+115 : empty
+116 : empty
+117 : empty
+118 : empty
+119 : spriteEnable 
+120 : spriteSetColor 
+121 : spriteSetYposition 
+122 : empty
+123 : empty
+124 : empty
+125 : COLOR_LIGHTBLUE 
+126 : COLOR_GRAY1 
+127 : COLOR_GRAY2 
+128 : COLOR_GRAY3 COLOR_ORANGE 
+129 : VIC 
+130 : __CC65_STD_C89__ 
+131 : empty
+132 : empty
+133 : setVideoBank getVideoBank CH_F8 
+134 : COLOR_YELLOW 
+135 : empty
+136 : empty
+137 : empty
+138 : empty
+139 : TGI_COLOR_ORANGE 
+140 : empty
+141 : empty
+142 : CH_F1 
+143 : CH_F2 
+144 : CH_F3 
+145 : CH_F4 
+146 : TGI_COLOR_BLACK CH_F5 
+147 : CH_F6 _ENEMY_H 
+148 : CH_F7 
+149 : SID 
+150 : empty
+151 : empty
+152 : empty
+153 : empty
+154 : empty
+155 : __6526_H TGI_COLOR_LIGHTBLUE 
+156 : empty
+157 : empty
+158 : empty
+159 : empty
+160 : empty
+161 : C64_OS_US 
+162 : empty
+163 : empty
+164 : empty
+165 : empty
+166 : __OPT_i__ 
+167 : COLOR_LIGHTRED 
+168 : COLOR_CYAN 
+169 : C64_EU_OLD 
+170 : CIA1 
+171 : CIA2 
+172 : empty
+173 : empty
+174 : empty
+175 : true 
+176 : empty
+177 : empty
+178 : empty
+179 : empty
+180 : empty
+181 : empty
+182 : empty
+183 : empty
+184 : setCharacterGenerator getCharacterGenerator COLOR_RAM 
+185 : empty
+186 : empty
+187 : empty
+188 : empty
+189 : empty
+190 : spriteSetExpandX 
+191 : setRowSelect spriteSetExpandY 
+192 : C64_OS_SX64 
+193 : empty
+194 : empty
+195 : empty
+196 : TGI_COLOR_WHITE 
+197 : spriteSetXposition 
+198 : TGI_COLOR_RED 
+199 : __OPT_r__ 
+200 : COLOR_GREEN 
+201 : empty
+202 : empty
+203 : empty
+204 : empty
+205 : empty
+206 : __STDC_HOSTED__ __C64__ 
+207 : __VIC2_H COLOR_RED 
+208 : empty
+209 : empty
+210 : TGI_COLOR_LIGHTGREEN 
+Applied OptDeadJumps: 1 changes
+Applied OptRTS: 1 changes
+Applied OptDeadCode: 1 changes
+Applied OptUnusedLoads: 6 changes
+Applied OptDupLoads: 3 changes
+Applied OptStoreLoad: 1 changes
+Applied OptSize2: 1 changes
+Applied OptBNegAX4: 3 changes
+Applied OptDecouple: 15 changes
+Applied OptJumpCascades: 1 changes
+Applied OptDeadJumps: 1 changes
+Applied OptRTS: 1 changes
+Applied OptDeadCode: 1 changes
+Applied OptCondBranches1: 2 changes
+Applied OptJumpTarget3: 1 changes
+Applied OptUnusedLoads: 9 changes
+Applied OptDupLoads: 2 changes
+Applied OptTransfers4: 3 changes
+Applied OptJumpCascades: 1 changes
+Applied OptSize2: 13 changes
+Applied OptBranchDist: 3 changes
+Applied OptRTS: 1 changes
+Applied OptDeadCode: 1 changes
+Applied OptStore4: 1 changes
+Applied OptStackOps: 3 changes
+Applied OptBoolTrans: 2 changes
+Applied OptJumpTarget1: 2 changes
+Applied OptCmp8: 2 changes
+Applied OptCmp3: 1 changes
+Applied OptTest1: 1 changes
+Applied OptJumpTarget3: 1 changes
+Applied OptUnusedLoads: 15 changes
+Applied OptUnusedStores: 4 changes
+Applied OptStore5: 3 changes
+Applied OptJumpTarget1: 2 changes
+Applied OptCmp3: 1 changes
+Applied OptBranchDist: 3 changes
+
+Global symbol table
+===================
+enemyInitialize:
+    AsmName: _enemyInitialize
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF 0x10000
+    Type:  __near__ function returning signed short
+enemyLoad:
+    AsmName: _enemyLoad
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF 0x10000
+    Type:  __near__ function returning signed short
+enemyMoveAll:
+    AsmName: _enemyMoveAll
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF 0x10000
+    Type:  __near__ function returning void
+c64_c256k_emd:
+    AsmName: _c64_c256k_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_dqbb_emd:
+    AsmName: _c64_dqbb_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_georam_emd:
+    AsmName: _c64_georam_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_isepic_emd:
+    AsmName: _c64_isepic_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_ram_emd:
+    AsmName: _c64_ram_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_ramcart_emd:
+    AsmName: _c64_ramcart_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_reu_emd:
+    AsmName: _c64_reu_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_vdc_emd:
+    AsmName: _c64_vdc_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+dtv_himem_emd:
+    AsmName: _dtv_himem_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_hitjoy_joy:
+    AsmName: _c64_hitjoy_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_numpad_joy:
+    AsmName: _c64_numpad_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_ptvjoy_joy:
+    AsmName: _c64_ptvjoy_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_stdjoy_joy:
+    AsmName: _c64_stdjoy_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_1351_mou:
+    AsmName: _c64_1351_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_joy_mou:
+    AsmName: _c64_joy_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_inkwell_mou:
+    AsmName: _c64_inkwell_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_pot_mou:
+    AsmName: _c64_pot_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_swlink_ser:
+    AsmName: _c64_swlink_ser
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_hi_tgi:
+    AsmName: _c64_hi_tgi
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+get_ostype:
+    AsmName: _get_ostype
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning unsigned char
+spriteGetPointer:
+    AsmName: _spriteGetPointer
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_REF 0x10000
+    Type:  __near__ function returning __near__ unsigned char *
+spriteLoad:
+    AsmName: _spriteLoad
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_REF 0x10000
+    Type:  __near__ function returning int
+_Bool:
+    AsmName: __Bool
+    Flags: SC_TYPEDEF 0x10000
+    Type:  unsigned char
+video_clear:
+    AsmName: _video_clear
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+video_init:
+    AsmName: _video_init
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+video_scroll:
+    AsmName: _video_scroll
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+video_wait4screen_end:
+    AsmName: _video_wait4screen_end
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+enemyAnimationFrame:
+    AsmName: _enemyAnimationFrame
+    Flags: SC_STATIC SC_EXTERN SC_STORAGE SC_DEF SC_REF 0x10000
+    Type:  unsigned short
+enemyAnimationFrameDelay:
+    AsmName: _enemyAnimationFrameDelay
+    Flags: SC_STATIC SC_EXTERN SC_STORAGE SC_DEF SC_REF 0x10000
+    Type:  unsigned short
+enemy_spritePointer:
+    AsmName: _enemy_spritePointer
+    Flags: SC_STATIC SC_EXTERN SC_STORAGE SC_DEF SC_REF 0x10000
+    Type:  __near__ unsigned char *
+enemyAnimate:
+    AsmName: _enemyAnimate
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF SC_REF 0x10000
+    Type:  __near__ function returning void
+
+
+
+
+Global tag table
+================
+__vic2:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0003:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-0004:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-struct-0005:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0006:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-0007:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-struct-0008:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0009:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-000A:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-000B:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-000C:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-000D:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-000E:
+    Flags: SC_STRUCT
+    Type:  (none)
+__sid_voice:
+    Flags: SC_STRUCT
+    Type:  (none)
+__sid:
+    Flags: SC_STRUCT
+    Type:  (none)
+__6526:
+    Flags: SC_STRUCT
+    Type:  (none)
+
+
+
+
+
+Macro Hash Table Summary
+  0 : empty
+  1 : empty
+  2 : empty
+  3 : empty
+  4 : spriteEnableMulticolor TGI_COLOR_BLUE 
+  5 : COLOR_VIOLET COLOR_BLACK 
+  6 : getVideoRamAddress 
+  7 : __OPT_s__ 
+  8 : empty
+  9 : __SID_H 
+ 10 : empty
+ 11 : empty
+ 12 : empty
+ 13 : empty
+ 14 : empty
+ 15 : empty
+ 16 : empty
+ 17 : empty
+ 18 : empty
+ 19 : EOF 
+ 20 : empty
+ 21 : _VIDEO_H __bool_true_false_are_defined false 
+ 22 : TGI_COLOR_CYAN 
+ 23 : empty
+ 24 : TGI_COLOR_YELLOW COLOR_PURPLE 
+ 25 : empty
+ 26 : empty
+ 27 : COLOR_LIGHTGREEN 
+ 28 : empty
+ 29 : empty
+ 30 : empty
+ 31 : empty
+ 32 : empty
+ 33 : empty
+ 34 : _HAVE_size_t _CONFIG_H 
+ 35 : TGI_COLOR_GRAY1 
+ 36 : TGI_COLOR_GRAY2 
+ 37 : TGI_COLOR_GRAY3 
+ 38 : empty
+ 39 : setColumnSelect getVideoRamOffset _HAVE_wchar_t 
+ 40 : setVideoRamOffsetIndex getVideoRamOffsetIndex _SPRITE_H 
+ 41 : C64_OS_PET64 
+ 42 : TGI_COLOR_VIOLET 
+ 43 : empty
+ 44 : empty
+ 45 : empty
+ 46 : empty
+ 47 : empty
+ 48 : empty
+ 49 : spriteSetMultiColor __CBM__ 
+ 50 : empty
+ 51 : empty
+ 52 : empty
+ 53 : COLOR_BROWN 
+ 54 : empty
+ 55 : empty
+ 56 : empty
+ 57 : _HAVE_ptrdiff_t 
+ 58 : _STDBOOL_H 
+ 59 : empty
+ 60 : empty
+ 61 : L_tmpnam 
+ 62 : empty
+ 63 : empty
+ 64 : empty
+ 65 : _STDDEF_H 
+ 66 : __DATE__ 
+ 67 : _IONBF COLOR_BLUE 
+ 68 : C64_EU_NEW 
+ 69 : SEEK_CUR 
+ 70 : C64_DTV 
+ 71 : __CC65_STD_C99__ 
+ 72 : va_end TGI_COLOR_LIGHTRED 
+ 73 : empty
+ 74 : empty
+ 75 : empty
+ 76 : SEEK_END TGI_COLOR_GREEN __CC65__ 
+ 77 : _HAVE_NULL 
+ 78 : empty
+ 79 : empty
+ 80 : TGI_COLOR_BROWN 
+ 81 : empty
+ 82 : empty
+ 83 : empty
+ 84 : empty
+ 85 : empty
+ 86 : empty
+ 87 : empty
+ 88 : empty
+ 89 : empty
+ 90 : empty
+ 91 : empty
+ 92 : empty
+ 93 : empty
+ 94 : empty
+ 95 : __CC65_STD__ 
+ 96 : empty
+ 97 : spriteSetPosition 
+ 98 : empty
+ 99 : empty
+100 : _STDIO_H 
+101 : empty
+102 : __TIME__ 
+103 : COLOR_WHITE __OPT__ 
+104 : empty
+105 : empty
+106 : empty
+107 : bool 
+108 : _C64_H 
+109 : TGI_COLOR_PURPLE 
+110 : empty
+111 : FOPEN_MAX 
+112 : empty
+113 : empty
+114 : __CC65_STD_CC65__ 
+115 : empty
+116 : NULL 
+117 : FILENAME_MAX 
+118 : empty
+119 : _IOLBF spriteEnable 
+120 : spriteSetColor 
+121 : spriteSetYposition 
+122 : putc 
+123 : empty
+124 : empty
+125 : COLOR_LIGHTBLUE 
+126 : _IOFBF COLOR_GRAY1 
+127 : COLOR_GRAY2 
+128 : COLOR_GRAY3 COLOR_ORANGE 
+129 : VIC 
+130 : __CC65_STD_C89__ 
+131 : getc 
+132 : empty
+133 : setVideoBank getVideoBank BUFSIZ CH_F8 
+134 : COLOR_YELLOW 
+135 : empty
+136 : empty
+137 : empty
+138 : empty
+139 : TGI_COLOR_ORANGE 
+140 : empty
+141 : empty
+142 : CH_F1 
+143 : CH_F2 
+144 : CH_F3 
+145 : CH_F4 
+146 : offsetof TGI_COLOR_BLACK CH_F5 
+147 : CH_F6 
+148 : CH_F7 
+149 : SID 
+150 : va_arg 
+151 : empty
+152 : empty
+153 : empty
+154 : empty
+155 : __6526_H TGI_COLOR_LIGHTBLUE 
+156 : empty
+157 : empty
+158 : empty
+159 : empty
+160 : empty
+161 : C64_OS_US 
+162 : empty
+163 : empty
+164 : va_start 
+165 : empty
+166 : __OPT_i__ 
+167 : COLOR_LIGHTRED 
+168 : COLOR_CYAN 
+169 : va_copy C64_EU_OLD 
+170 : CIA1 
+171 : CIA2 
+172 : empty
+173 : empty
+174 : empty
+175 : true 
+176 : TMP_MAX 
+177 : empty
+178 : empty
+179 : empty
+180 : empty
+181 : empty
+182 : empty
+183 : empty
+184 : setCharacterGenerator getCharacterGenerator COLOR_RAM 
+185 : SEEK_SET 
+186 : empty
+187 : empty
+188 : empty
+189 : empty
+190 : spriteSetExpandX 
+191 : setRowSelect spriteSetExpandY 
+192 : C64_OS_SX64 
+193 : empty
+194 : empty
+195 : empty
+196 : TGI_COLOR_WHITE 
+197 : spriteSetXposition 
+198 : TGI_COLOR_RED 
+199 : __OPT_r__ 
+200 : COLOR_GREEN 
+201 : empty
+202 : empty
+203 : _STDARG_H 
+204 : empty
+205 : empty
+206 : __STDC_HOSTED__ __C64__ 
+207 : __VIC2_H COLOR_RED 
+208 : empty
+209 : empty
+210 : TGI_COLOR_LIGHTGREEN 
+Applied OptStackOps: 2 changes
+Applied OptShift4: 1 changes
+Applied OptComplAX1: 1 changes
+Applied OptDeadJumps: 1 changes
+Applied OptRTS: 1 changes
+Applied OptDeadCode: 1 changes
+Applied OptUnusedLoads: 4 changes
+Applied OptPushPop: 1 changes
+Applied OptTransfers3: 1 changes
+Applied OptLoad2: 1 changes
+Applied OptSize2: 1 changes
+Applied OptBNegAX2: 1 changes
+Applied OptStore1: 1 changes
+Applied OptDecouple: 7 changes
+Applied OptStackOps: 3 changes
+Applied OptStackOps: 3 changes
+Applied OptShift1: 1 changes
+Applied OptComplAX1: 1 changes
+Applied OptDeadJumps: 1 changes
+Applied OptRTS: 1 changes
+Applied OptDeadCode: 1 changes
+Applied OptBoolTrans: 1 changes
+Applied OptCmp5: 1 changes
+Applied OptLoad1: 2 changes
+Applied OptUnusedLoads: 9 changes
+Applied OptDupLoads: 1 changes
+Applied OptTransfers4: 2 changes
+Applied OptPushPop: 2 changes
+Applied OptPrecalc: 2 changes
+Applied OptShift1: 1 changes
+Applied OptJumpCascades: 1 changes
+Applied OptCmp3: 1 changes
+Applied OptUnusedLoads: 4 changes
+Applied OptPush1: 1 changes
+Applied OptUnusedLoads: 1 changes
+Applied OptLoad2: 5 changes
+Applied OptSize1: 1 changes
+Applied OptUnusedLoads: 1 changes
+Applied OptSize2: 9 changes
+Applied OptBranchDist: 3 changes
+
+Global symbol table
+===================
+c64_c256k_emd:
+    AsmName: _c64_c256k_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_dqbb_emd:
+    AsmName: _c64_dqbb_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_georam_emd:
+    AsmName: _c64_georam_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_isepic_emd:
+    AsmName: _c64_isepic_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_ram_emd:
+    AsmName: _c64_ram_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_ramcart_emd:
+    AsmName: _c64_ramcart_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_reu_emd:
+    AsmName: _c64_reu_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_vdc_emd:
+    AsmName: _c64_vdc_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+dtv_himem_emd:
+    AsmName: _dtv_himem_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_hitjoy_joy:
+    AsmName: _c64_hitjoy_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_numpad_joy:
+    AsmName: _c64_numpad_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_ptvjoy_joy:
+    AsmName: _c64_ptvjoy_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_stdjoy_joy:
+    AsmName: _c64_stdjoy_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_1351_mou:
+    AsmName: _c64_1351_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_joy_mou:
+    AsmName: _c64_joy_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_inkwell_mou:
+    AsmName: _c64_inkwell_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_pot_mou:
+    AsmName: _c64_pot_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_swlink_ser:
+    AsmName: _c64_swlink_ser
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_hi_tgi:
+    AsmName: _c64_hi_tgi
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+get_ostype:
+    AsmName: _get_ostype
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning unsigned char
+spriteGetPointer:
+    AsmName: _spriteGetPointer
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF SC_REF 0x10000
+    Type:  __near__ function returning __near__ unsigned char *
+spriteLoad:
+    AsmName: _spriteLoad
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF 0x10000
+    Type:  __near__ function returning int
+_Bool:
+    AsmName: __Bool
+    Flags: SC_TYPEDEF 0x10000
+    Type:  unsigned char
+ptrdiff_t:
+    AsmName: _ptrdiff_t
+    Flags: SC_TYPEDEF 0x10000
+    Type:  int
+wchar_t:
+    AsmName: _wchar_t
+    Flags: SC_TYPEDEF 0x10000
+    Type:  unsigned char
+size_t:
+    AsmName: _size_t
+    Flags: SC_TYPEDEF 0x10000
+    Type:  unsigned int
+va_list:
+    AsmName: _va_list
+    Flags: SC_TYPEDEF 0x10000
+    Type:  __near__ unsigned char *
+FILE:
+    AsmName: _FILE
+    Flags: SC_TYPEDEF 0x10000
+    Type:  struct _FILE
+fpos_t:
+    AsmName: _fpos_t
+    Flags: SC_TYPEDEF 0x10000
+    Type:  unsigned long
+stdin:
+    AsmName: _stdin
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  __near__ struct _FILE *
+stdout:
+    AsmName: _stdout
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  __near__ struct _FILE *
+stderr:
+    AsmName: _stderr
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  __near__ struct _FILE *
+clearerr:
+    AsmName: _clearerr
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+fclose:
+    AsmName: _fclose
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_REF 0x10000
+    Type:  __near__ __fastcall__ function returning int
+feof:
+    AsmName: _feof
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+ferror:
+    AsmName: _ferror
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+fflush:
+    AsmName: _fflush
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+fgetc:
+    AsmName: _fgetc
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+fgets:
+    AsmName: _fgets
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ unsigned char *
+fopen:
+    AsmName: _fopen
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_REF 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ struct _FILE *
+fprintf:
+    AsmName: _fprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+fputc:
+    AsmName: _fputc
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+fputs:
+    AsmName: _fputs
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+fread:
+    AsmName: _fread
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_REF 0x10000
+    Type:  __near__ __fastcall__ function returning unsigned int
+freopen:
+    AsmName: _freopen
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ struct _FILE *
+fwrite:
+    AsmName: _fwrite
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning unsigned int
+fgetpos:
+    AsmName: _fgetpos
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+fsetpos:
+    AsmName: _fsetpos
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+ftell:
+    AsmName: _ftell
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning long
+fseek:
+    AsmName: _fseek
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+rewind:
+    AsmName: _rewind
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+getchar:
+    AsmName: _getchar
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+gets:
+    AsmName: _gets
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ unsigned char *
+perror:
+    AsmName: _perror
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+printf:
+    AsmName: _printf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+putchar:
+    AsmName: _putchar
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+puts:
+    AsmName: _puts
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+remove:
+    AsmName: _remove
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+rename:
+    AsmName: _rename
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+snprintf:
+    AsmName: _snprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+sprintf:
+    AsmName: _sprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+ungetc:
+    AsmName: _ungetc
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+vfprintf:
+    AsmName: _vfprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+vprintf:
+    AsmName: _vprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+vsnprintf:
+    AsmName: _vsnprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+vsprintf:
+    AsmName: _vsprintf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+scanf:
+    AsmName: _scanf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+fscanf:
+    AsmName: _fscanf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+sscanf:
+    AsmName: _sscanf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning int
+vscanf:
+    AsmName: _vscanf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+vsscanf:
+    AsmName: _vsscanf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+vfscanf:
+    AsmName: _vfscanf
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+fdopen:
+    AsmName: _fdopen
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning __near__ struct _FILE *
+fileno:
+    AsmName: _fileno
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning int
+_poserror:
+    AsmName: __poserror
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ __fastcall__ function returning void
+video_clear:
+    AsmName: _video_clear
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+video_init:
+    AsmName: _video_init
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+video_scroll:
+    AsmName: _video_scroll
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+video_wait4screen_end:
+    AsmName: _video_wait4screen_end
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning void
+
+
+
+
+Global tag table
+================
+__vic2:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0001:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-0002:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-struct-0003:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0004:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-0005:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-struct-0006:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0007:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-0008:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0009:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-000A:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-000B:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-000C:
+    Flags: SC_STRUCT
+    Type:  (none)
+__sid_voice:
+    Flags: SC_STRUCT
+    Type:  (none)
+__sid:
+    Flags: SC_STRUCT
+    Type:  (none)
+__6526:
+    Flags: SC_STRUCT
+    Type:  (none)
+_FILE:
+    Flags: SC_STRUCT
+    Type:  (none)
+
+
+
+
+
+Macro Hash Table Summary
+  0 : empty
+  1 : empty
+  2 : empty
+  3 : empty
+  4 : TGI_COLOR_BLUE 
+  5 : COLOR_VIOLET COLOR_BLACK 
+  6 : empty
+  7 : __OPT_s__ 
+  8 : empty
+  9 : __SID_H 
+ 10 : empty
+ 11 : empty
+ 12 : empty
+ 13 : empty
+ 14 : empty
+ 15 : empty
+ 16 : empty
+ 17 : empty
+ 18 : empty
+ 19 : empty
+ 20 : empty
+ 21 : empty
+ 22 : TGI_COLOR_CYAN 
+ 23 : empty
+ 24 : TGI_COLOR_YELLOW COLOR_PURPLE 
+ 25 : empty
+ 26 : empty
+ 27 : COLOR_LIGHTGREEN 
+ 28 : empty
+ 29 : empty
+ 30 : empty
+ 31 : empty
+ 32 : empty
+ 33 : empty
+ 34 : empty
+ 35 : TGI_COLOR_GRAY1 
+ 36 : TGI_COLOR_GRAY2 
+ 37 : TGI_COLOR_GRAY3 
+ 38 : empty
+ 39 : empty
+ 40 : empty
+ 41 : C64_OS_PET64 
+ 42 : TGI_COLOR_VIOLET 
+ 43 : empty
+ 44 : empty
+ 45 : empty
+ 46 : empty
+ 47 : empty
+ 48 : empty
+ 49 : __CBM__ 
+ 50 : empty
+ 51 : empty
+ 52 : empty
+ 53 : _SOUND_H COLOR_BROWN 
+ 54 : empty
+ 55 : empty
+ 56 : empty
+ 57 : empty
+ 58 : empty
+ 59 : empty
+ 60 : SOUND_SHOT 
+ 61 : empty
+ 62 : empty
+ 63 : empty
+ 64 : empty
+ 65 : empty
+ 66 : __DATE__ 
+ 67 : COLOR_BLUE 
+ 68 : C64_EU_NEW 
+ 69 : empty
+ 70 : C64_DTV 
+ 71 : __CC65_STD_C99__ 
+ 72 : TGI_COLOR_LIGHTRED 
+ 73 : empty
+ 74 : empty
+ 75 : empty
+ 76 : TGI_COLOR_GREEN __CC65__ 
+ 77 : empty
+ 78 : empty
+ 79 : empty
+ 80 : TGI_COLOR_BROWN 
+ 81 : empty
+ 82 : empty
+ 83 : empty
+ 84 : empty
+ 85 : empty
+ 86 : empty
+ 87 : empty
+ 88 : empty
+ 89 : empty
+ 90 : empty
+ 91 : empty
+ 92 : empty
+ 93 : empty
+ 94 : empty
+ 95 : __CC65_STD__ 
+ 96 : empty
+ 97 : empty
+ 98 : empty
+ 99 : empty
+100 : empty
+101 : empty
+102 : __TIME__ 
+103 : COLOR_WHITE __OPT__ 
+104 : empty
+105 : empty
+106 : empty
+107 : empty
+108 : _C64_H 
+109 : TGI_COLOR_PURPLE 
+110 : empty
+111 : empty
+112 : empty
+113 : empty
+114 : __CC65_STD_CC65__ 
+115 : empty
+116 : empty
+117 : empty
+118 : empty
+119 : empty
+120 : empty
+121 : empty
+122 : empty
+123 : empty
+124 : empty
+125 : COLOR_LIGHTBLUE 
+126 : COLOR_GRAY1 
+127 : COLOR_GRAY2 
+128 : COLOR_GRAY3 COLOR_ORANGE 
+129 : VIC 
+130 : __CC65_STD_C89__ 
+131 : empty
+132 : empty
+133 : CH_F8 
+134 : COLOR_YELLOW 
+135 : empty
+136 : empty
+137 : empty
+138 : empty
+139 : TGI_COLOR_ORANGE 
+140 : empty
+141 : empty
+142 : CH_F1 
+143 : CH_F2 
+144 : CH_F3 
+145 : CH_F4 
+146 : TGI_COLOR_BLACK CH_F5 
+147 : CH_F6 
+148 : CH_F7 
+149 : SID 
+150 : empty
+151 : empty
+152 : empty
+153 : empty
+154 : empty
+155 : __6526_H TGI_COLOR_LIGHTBLUE 
+156 : empty
+157 : empty
+158 : empty
+159 : empty
+160 : empty
+161 : C64_OS_US 
+162 : empty
+163 : empty
+164 : empty
+165 : empty
+166 : __OPT_i__ 
+167 : COLOR_LIGHTRED 
+168 : COLOR_CYAN 
+169 : C64_EU_OLD 
+170 : CIA1 
+171 : CIA2 
+172 : empty
+173 : empty
+174 : empty
+175 : empty
+176 : empty
+177 : empty
+178 : empty
+179 : empty
+180 : empty
+181 : empty
+182 : empty
+183 : empty
+184 : COLOR_RAM 
+185 : empty
+186 : empty
+187 : empty
+188 : empty
+189 : empty
+190 : empty
+191 : empty
+192 : C64_OS_SX64 
+193 : empty
+194 : empty
+195 : empty
+196 : TGI_COLOR_WHITE 
+197 : empty
+198 : TGI_COLOR_RED 
+199 : __OPT_r__ 
+200 : COLOR_GREEN 
+201 : empty
+202 : empty
+203 : empty
+204 : empty
+205 : empty
+206 : __STDC_HOSTED__ __C64__ 
+207 : __VIC2_H COLOR_RED 
+208 : empty
+209 : empty
+210 : TGI_COLOR_LIGHTGREEN 
+Applied OptRTS: 1 changes
+Applied OptDeadCode: 1 changes
+Applied OptStore2: 1 changes
+Applied OptDeadJumps: 2 changes
+Applied OptRTS: 1 changes
+Applied OptDeadCode: 2 changes
+Applied OptBoolTrans: 1 changes
+Applied OptCondBranches1: 2 changes
+Applied OptCmp5: 1 changes
+Applied OptUnusedLoads: 8 changes
+Applied OptUnusedStores: 2 changes
+Applied OptDupLoads: 1 changes
+Applied OptCmp3: 1 changes
+Applied OptUnusedLoads: 1 changes
+Applied OptLoad2: 2 changes
+Applied OptDupLoads: 2 changes
+Applied OptUnusedLoads: 1 changes
+Applied OptSize1: 1 changes
+Applied OptSize2: 6 changes
+Applied OptTransfers3: 1 changes
+Applied OptBranchDist: 3 changes
+
+Global symbol table
+===================
+c64_c256k_emd:
+    AsmName: _c64_c256k_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_dqbb_emd:
+    AsmName: _c64_dqbb_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_georam_emd:
+    AsmName: _c64_georam_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_isepic_emd:
+    AsmName: _c64_isepic_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_ram_emd:
+    AsmName: _c64_ram_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_ramcart_emd:
+    AsmName: _c64_ramcart_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_reu_emd:
+    AsmName: _c64_reu_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_vdc_emd:
+    AsmName: _c64_vdc_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+dtv_himem_emd:
+    AsmName: _dtv_himem_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_hitjoy_joy:
+    AsmName: _c64_hitjoy_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_numpad_joy:
+    AsmName: _c64_numpad_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_ptvjoy_joy:
+    AsmName: _c64_ptvjoy_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_stdjoy_joy:
+    AsmName: _c64_stdjoy_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_1351_mou:
+    AsmName: _c64_1351_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_joy_mou:
+    AsmName: _c64_joy_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_inkwell_mou:
+    AsmName: _c64_inkwell_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_pot_mou:
+    AsmName: _c64_pot_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_swlink_ser:
+    AsmName: _c64_swlink_ser
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_hi_tgi:
+    AsmName: _c64_hi_tgi
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+get_ostype:
+    AsmName: _get_ostype
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning unsigned char
+soundPlayNote:
+    AsmName: _soundPlayNote
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF 0x10000
+    Type:  __near__ function returning void
+soundPlayEffect:
+    AsmName: _soundPlayEffect
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF 0x10000
+    Type:  __near__ function returning void
+
+
+
+
+Global tag table
+================
+__vic2:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0001:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-0002:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-struct-0003:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0004:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-0005:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-struct-0006:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0007:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-0008:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0009:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-000A:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-000B:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-000C:
+    Flags: SC_STRUCT
+    Type:  (none)
+__sid_voice:
+    Flags: SC_STRUCT
+    Type:  (none)
+__sid:
+    Flags: SC_STRUCT
+    Type:  (none)
+__6526:
+    Flags: SC_STRUCT
+    Type:  (none)
+note:
+    Flags: SC_STRUCT
+    Type:  (none)
+
+
+
+
+
+Macro Hash Table Summary
+  0 : empty
+  1 : empty
+  2 : empty
+  3 : empty
+  4 : TGI_COLOR_BLUE 
+  5 : COLOR_VIOLET COLOR_BLACK 
+  6 : empty
+  7 : __OPT_s__ 
+  8 : empty
+  9 : __SID_H 
+ 10 : empty
+ 11 : empty
+ 12 : empty
+ 13 : empty
+ 14 : empty
+ 15 : empty
+ 16 : empty
+ 17 : empty
+ 18 : empty
+ 19 : empty
+ 20 : empty
+ 21 : __bool_true_false_are_defined false 
+ 22 : TGI_COLOR_CYAN 
+ 23 : empty
+ 24 : TGI_COLOR_YELLOW COLOR_PURPLE 
+ 25 : empty
+ 26 : empty
+ 27 : COLOR_LIGHTGREEN 
+ 28 : empty
+ 29 : empty
+ 30 : empty
+ 31 : empty
+ 32 : empty
+ 33 : empty
+ 34 : empty
+ 35 : TGI_COLOR_GRAY1 
+ 36 : TGI_COLOR_GRAY2 
+ 37 : TGI_COLOR_GRAY3 
+ 38 : empty
+ 39 : empty
+ 40 : empty
+ 41 : C64_OS_PET64 
+ 42 : TGI_COLOR_VIOLET 
+ 43 : TILE_WIDTH 
+ 44 : empty
+ 45 : empty
+ 46 : empty
+ 47 : empty
+ 48 : empty
+ 49 : __CBM__ 
+ 50 : empty
+ 51 : empty
+ 52 : empty
+ 53 : COLOR_BROWN 
+ 54 : empty
+ 55 : empty
+ 56 : empty
+ 57 : empty
+ 58 : _STDBOOL_H 
+ 59 : empty
+ 60 : empty
+ 61 : empty
+ 62 : empty
+ 63 : empty
+ 64 : empty
+ 65 : empty
+ 66 : __DATE__ 
+ 67 : COLOR_BLUE 
+ 68 : C64_EU_NEW 
+ 69 : empty
+ 70 : C64_DTV 
+ 71 : __CC65_STD_C99__ 
+ 72 : TGI_COLOR_LIGHTRED 
+ 73 : empty
+ 74 : empty
+ 75 : empty
+ 76 : TGI_COLOR_GREEN __CC65__ 
+ 77 : empty
+ 78 : empty
+ 79 : empty
+ 80 : TGI_COLOR_BROWN 
+ 81 : empty
+ 82 : empty
+ 83 : empty
+ 84 : empty
+ 85 : empty
+ 86 : empty
+ 87 : empty
+ 88 : empty
+ 89 : empty
+ 90 : empty
+ 91 : empty
+ 92 : empty
+ 93 : empty
+ 94 : empty
+ 95 : __CC65_STD__ 
+ 96 : empty
+ 97 : empty
+ 98 : empty
+ 99 : empty
+100 : empty
+101 : empty
+102 : __TIME__ 
+103 : COLOR_WHITE __OPT__ 
+104 : empty
+105 : empty
+106 : empty
+107 : bool 
+108 : _C64_H 
+109 : TGI_COLOR_PURPLE 
+110 : empty
+111 : empty
+112 : empty
+113 : TILE_LENGTH 
+114 : __CC65_STD_CC65__ 
+115 : empty
+116 : empty
+117 : empty
+118 : empty
+119 : empty
+120 : empty
+121 : empty
+122 : empty
+123 : empty
+124 : empty
+125 : COLOR_LIGHTBLUE 
+126 : COLOR_GRAY1 
+127 : COLOR_GRAY2 
+128 : COLOR_GRAY3 COLOR_ORANGE 
+129 : VIC 
+130 : __CC65_STD_C89__ 
+131 : empty
+132 : empty
+133 : CH_F8 
+134 : COLOR_YELLOW 
+135 : empty
+136 : empty
+137 : empty
+138 : empty
+139 : TGI_COLOR_ORANGE 
+140 : empty
+141 : empty
+142 : CH_F1 
+143 : CH_F2 
+144 : CH_F3 
+145 : CH_F4 
+146 : TGI_COLOR_BLACK CH_F5 
+147 : CH_F6 
+148 : CH_F7 
+149 : SID 
+150 : empty
+151 : empty
+152 : empty
+153 : empty
+154 : empty
+155 : __6526_H TGI_COLOR_LIGHTBLUE 
+156 : empty
+157 : empty
+158 : empty
+159 : empty
+160 : empty
+161 : C64_OS_US 
+162 : empty
+163 : empty
+164 : empty
+165 : empty
+166 : __OPT_i__ 
+167 : COLOR_LIGHTRED 
+168 : COLOR_CYAN 
+169 : C64_EU_OLD 
+170 : CIA1 
+171 : TILE_HEIGHT CIA2 
+172 : empty
+173 : empty
+174 : empty
+175 : true 
+176 : empty
+177 : empty
+178 : empty
+179 : empty
+180 : empty
+181 : empty
+182 : empty
+183 : empty
+184 : COLOR_RAM 
+185 : PLAYGROUND_WIDTH 
+186 : empty
+187 : _PLAYGROUND_H 
+188 : empty
+189 : empty
+190 : empty
+191 : empty
+192 : C64_OS_SX64 
+193 : empty
+194 : empty
+195 : empty
+196 : TGI_COLOR_WHITE 
+197 : empty
+198 : TGI_COLOR_RED 
+199 : __OPT_r__ 
+200 : COLOR_GREEN 
+201 : empty
+202 : empty
+203 : empty
+204 : empty
+205 : empty
+206 : __STDC_HOSTED__ __C64__ 
+207 : __VIC2_H COLOR_RED 
+208 : empty
+209 : empty
+210 : TGI_COLOR_LIGHTGREEN 
+Applied OptDeadJumps: 1 changes
+Applied OptRTS: 1 changes
+Applied OptDeadCode: 1 changes
+Applied OptDeadJumps: 1 changes
+Applied OptRTS: 1 changes
+Applied OptDeadCode: 1 changes
+Applied OptStore2: 1 changes
+Applied OptStackOps: 1 changes
+Applied OptRTS: 1 changes
+Applied OptDeadCode: 1 changes
+Applied OptBoolTrans: 1 changes
+Applied OptCondBranches1: 1 changes
+Applied OptCmp5: 1 changes
+Applied OptUnusedLoads: 3 changes
+Applied OptDupLoads: 1 changes
+Applied OptLoad2: 1 changes
+Applied OptDupLoads: 1 changes
+Applied OptSize1: 1 changes
+Applied OptSize2: 3 changes
+Applied OptBranchDist: 1 changes
+Applied OptPtrLoad16: 2 changes
+Applied OptAdd1: 1 changes
+Applied OptStore2: 1 changes
+Applied OptDecouple: 3 changes
+Applied OptRTS: 1 changes
+Applied OptDeadCode: 1 changes
+Applied OptCondBranches1: 1 changes
+Applied OptCondBranches2: 1 changes
+Applied OptUnusedLoads: 8 changes
+Applied OptUnusedStores: 2 changes
+Applied OptPushPop: 1 changes
+Applied OptCmp9: 1 changes
+Applied OptTransfers3: 1 changes
+Applied OptStackOps: 1 changes
+Applied OptUnusedLoads: 2 changes
+Applied OptTransfers4: 1 changes
+Applied OptPushPop: 1 changes
+Applied OptTransfers3: 1 changes
+Applied OptPush1: 2 changes
+Applied OptUnusedLoads: 2 changes
+Applied OptLoad2: 5 changes
+Applied OptDupLoads: 1 changes
+Applied OptSize1: 3 changes
+Applied OptUnusedLoads: 1 changes
+Applied OptSize2: 5 changes
+Applied OptBranchDist: 1 changes
+Applied OptPtrLoad16: 1 changes
+Applied OptAdd1: 2 changes
+Applied OptShift6: 1 changes
+Applied OptStore2: 1 changes
+Applied OptRTS: 1 changes
+Applied OptDeadCode: 1 changes
+Applied OptCondBranches1: 1 changes
+Applied OptCondBranches2: 1 changes
+Applied OptUnusedLoads: 7 changes
+Applied OptUnusedStores: 2 changes
+Applied OptDupLoads: 1 changes
+Applied OptPushPop: 1 changes
+Applied OptStackOps: 1 changes
+Applied OptCmp9: 1 changes
+Applied OptUnusedLoads: 1 changes
+Applied OptTransfers3: 1 changes
+Applied OptPushPop: 1 changes
+Applied OptTransfers3: 1 changes
+Applied OptLoad2: 3 changes
+Applied OptDupLoads: 1 changes
+Applied OptSize1: 1 changes
+Applied OptSize2: 4 changes
+Applied OptTransfers3: 1 changes
+Applied OptBranchDist: 1 changes
+
+Global symbol table
+===================
+c64_c256k_emd:
+    AsmName: _c64_c256k_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_dqbb_emd:
+    AsmName: _c64_dqbb_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_georam_emd:
+    AsmName: _c64_georam_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_isepic_emd:
+    AsmName: _c64_isepic_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_ram_emd:
+    AsmName: _c64_ram_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_ramcart_emd:
+    AsmName: _c64_ramcart_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_reu_emd:
+    AsmName: _c64_reu_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_vdc_emd:
+    AsmName: _c64_vdc_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+dtv_himem_emd:
+    AsmName: _dtv_himem_emd
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_hitjoy_joy:
+    AsmName: _c64_hitjoy_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_numpad_joy:
+    AsmName: _c64_numpad_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_ptvjoy_joy:
+    AsmName: _c64_ptvjoy_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_stdjoy_joy:
+    AsmName: _c64_stdjoy_joy
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_1351_mou:
+    AsmName: _c64_1351_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_joy_mou:
+    AsmName: _c64_joy_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_inkwell_mou:
+    AsmName: _c64_inkwell_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_pot_mou:
+    AsmName: _c64_pot_mou
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_swlink_ser:
+    AsmName: _c64_swlink_ser
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+c64_hi_tgi:
+    AsmName: _c64_hi_tgi
+    Flags: SC_STATIC SC_EXTERN 0x10000
+    Type:  void []
+get_ostype:
+    AsmName: _get_ostype
+    Flags: SC_STATIC SC_EXTERN SC_FUNC 0x10000
+    Type:  __near__ function returning unsigned char
+playgroundInitialize:
+    AsmName: _playgroundInitialize
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF 0x10000
+    Type:  __near__ function returning signed short
+playgroundLoad:
+    AsmName: _playgroundLoad
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF 0x10000
+    Type:  __near__ function returning signed short
+playgroundScroll:
+    AsmName: _playgroundScroll
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF 0x10000
+    Type:  __near__ function returning void
+playgroundWriteLine:
+    AsmName: _playgroundWriteLine
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF 0x10000
+    Type:  __near__ function returning void
+playgroundWriteTile:
+    AsmName: _playgroundWriteTile
+    Flags: SC_STATIC SC_EXTERN SC_FUNC SC_DEF SC_REF 0x10000
+    Type:  __near__ function returning void
+_Bool:
+    AsmName: __Bool
+    Flags: SC_TYPEDEF 0x10000
+    Type:  unsigned char
+
+
+
+
+Global tag table
+================
+__vic2:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0001:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-0002:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-struct-0003:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0004:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-0005:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-struct-0006:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0007:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-0008:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-0009:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-000A:
+    Flags: SC_STRUCT
+    Type:  (none)
+$anon-union-000B:
+    Flags: SC_UNION
+    Type:  (none)
+$anon-struct-000C:
+    Flags: SC_STRUCT
+    Type:  (none)
+__sid_voice:
+    Flags: SC_STRUCT
+    Type:  (none)
+__sid:
+    Flags: SC_STRUCT
+    Type:  (none)
+__6526:
+    Flags: SC_STRUCT
+    Type:  (none)
+
+
+
+Executing: cc65 -d -O -Oi -Or -Os -t c64 video.c 
+Executing: ca65 -t c64 video.s 
+Executing: cc65 -d -O -Oi -Or -Os -t c64 player.c 
+Executing: ca65 -t c64 player.s 
+Executing: cc65 -d -O -Oi -Or -Os -t c64 shooter.c 
+Executing: ca65 -t c64 shooter.s 
+Executing: cc65 -d -O -Oi -Or -Os -t c64 shot.c 
+Executing: ca65 -t c64 shot.s 
+Executing: cc65 -d -O -Oi -Or -Os -t c64 enemy.c 
+Executing: ca65 -t c64 enemy.s 
+Executing: cc65 -d -O -Oi -Or -Os -t c64 sprite.c 
+Executing: ca65 -t c64 sprite.s 
+Executing: cc65 -d -O -Oi -Or -Os -t c64 sound.c 
+Executing: ca65 -t c64 sound.s 
+Executing: cc65 -d -O -Oi -Or -Os -t c64 playground.c 
+Executing: ca65 -t c64 playground.s 
+Executing: ld65 -o shooter.prg -t c64 video.o player.o shooter.o shot.o enemy.o sprite.o sound.o playground.o c64.lib 
+Makefile:22: recipe for target 'all' failed
